@@ -1,5 +1,5 @@
 {
-  "homepage": "https://acancerouscake.github.io/the-galaxy-girl-react/",
+  "homepage": "https://acancerouscake.github.io/the-galaxy-girl-react/index.html",
   "name": "the-galaxy-girl",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
