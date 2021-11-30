@@ -1,5 +1,6 @@
 {
-  "name": "g-girl",
+  "homepage": "https://acancerouscake.github.io/the-galaxy-girl-react/",
+  "name": "the-galaxy-girl",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "lightgallery": "^2.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -19,6 +21,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
