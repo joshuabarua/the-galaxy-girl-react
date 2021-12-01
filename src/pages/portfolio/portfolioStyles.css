@@ -5,6 +5,10 @@
 .gallery-item img{
     border-radius: 1%;
     padding-top: 50px;
+    transform: scale(1);
+    transition: ease-in-out 0.4s;
+    -webkit-animation: ease-in-out 0.4s;
+    -moz-animation: ease-in-out 0.4s;
 }
 
 .gallery-item img:hover {
