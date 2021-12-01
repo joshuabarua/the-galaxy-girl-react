@@ -17,7 +17,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1> Galaxy Girl MUA</HeroH1>
+                <HeroH1> Emma Barua ~ Makeup Artist</HeroH1>
                 <HeroP> "Everything has beauty in it, but not everyone sees it" - Confucius </HeroP>
                 <HeroBtnWrapper>
                     <Button to="/contact" onMouseEnter={onHover} onMouseLeave={onHover}

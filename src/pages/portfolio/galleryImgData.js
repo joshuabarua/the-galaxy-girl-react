@@ -12,7 +12,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/4_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
        
     },
     {
@@ -22,7 +22,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/1_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {    
         id: (Incrementer),
@@ -31,7 +31,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/3_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -40,7 +40,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/450W/12_450.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -49,7 +49,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/5_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -58,7 +58,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/450W/14_450.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {
         id: (Incrementer),
@@ -67,7 +67,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/7_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -76,7 +76,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/8_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {    
         id: (Incrementer),
@@ -85,7 +85,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/13_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -94,7 +94,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/2_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -103,7 +103,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/11_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -112,7 +112,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/9_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -121,7 +121,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/10_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -130,7 +130,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/200W/6_200.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -138,7 +138,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/15.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -146,7 +146,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/16.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -154,7 +154,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/17.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -162,7 +162,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/18.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -170,7 +170,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/19.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -178,7 +178,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/20.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -186,7 +186,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/21.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -194,7 +194,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/22.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -202,7 +202,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/23.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -210,7 +210,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/24.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -218,7 +218,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/25.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -226,7 +226,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/26.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -234,7 +234,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/27.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -242,7 +242,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/28.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -250,7 +250,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/29.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -258,7 +258,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/30.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -266,7 +266,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/31.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -274,7 +274,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/32.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -282,7 +282,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/33.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -290,7 +290,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/34.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -298,7 +298,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/35.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -306,7 +306,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/36.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -314,7 +314,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/37.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -322,7 +322,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/38.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -330,7 +330,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/39.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -338,7 +338,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/40.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -346,7 +346,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/41.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
     {    
         id: (Incrementer),
@@ -354,7 +354,7 @@ export const galleryImgDataGroup1 = [
         thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/42.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`,
+        <p>Published on Dec 1, 2021</p></div>`,
     },
 ];
 
@@ -366,7 +366,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/1.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -374,7 +374,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/2.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -382,7 +382,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/3.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -390,7 +390,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/4.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -398,7 +398,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/5.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -406,7 +406,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/6.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -414,7 +414,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/7.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -422,7 +422,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/8.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -430,7 +430,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/9.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -438,7 +438,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/10.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -446,7 +446,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/11.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -454,7 +454,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/12.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -462,7 +462,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/13.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -470,7 +470,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/14.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -478,7 +478,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/15.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -486,7 +486,7 @@ export const galleryImgDataGroup2 = [
         thumb: require('../../assets/images/portfolio/SFX_makeup/300H/16.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
 ];
 
@@ -497,7 +497,7 @@ export const galleryImgDataGroup3 = [
         thumb: require('../../assets/images/portfolio/bodypaint/300H/1.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -505,7 +505,7 @@ export const galleryImgDataGroup3 = [
         thumb: require('../../assets/images/portfolio/bodypaint/300H/2.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -513,7 +513,7 @@ export const galleryImgDataGroup3 = [
         thumb: require('../../assets/images/portfolio/bodypaint/300H/3.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -521,7 +521,7 @@ export const galleryImgDataGroup3 = [
         thumb: require('../../assets/images/portfolio/bodypaint/300H/4.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -529,7 +529,7 @@ export const galleryImgDataGroup3 = [
         thumb: require('../../assets/images/portfolio/bodypaint/300H/5.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: 6,
@@ -537,7 +537,7 @@ export const galleryImgDataGroup3 = [
         thumb: require('../../assets/images/portfolio/bodypaint/300H/6.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     }
 ];
 
@@ -552,7 +552,7 @@ export const galleryImgDataGroup4 = [
         thumb: require('../../assets/images/portfolio/Theatrical/300H/1.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -560,7 +560,7 @@ export const galleryImgDataGroup4 = [
         thumb: require('../../assets/images/portfolio/Theatrical/300H/2.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -568,7 +568,7 @@ export const galleryImgDataGroup4 = [
         thumb: require('../../assets/images/portfolio/Theatrical/300H/3.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -576,7 +576,7 @@ export const galleryImgDataGroup4 = [
         thumb: require('../../assets/images/portfolio/Theatrical/300H/4.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -584,7 +584,7 @@ export const galleryImgDataGroup4 = [
         thumb: require('../../assets/images/portfolio/Theatrical/300H/5.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -592,7 +592,7 @@ export const galleryImgDataGroup4 = [
         thumb: require('../../assets/images/portfolio/Theatrical/300H/6.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
 ];
 
@@ -603,7 +603,7 @@ export const galleryImgDataGroup5 = [
         thumb: require('../../assets/images/portfolio/Wedding/300H/1.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -611,7 +611,7 @@ export const galleryImgDataGroup5 = [
         thumb: require('../../assets/images/portfolio/Wedding/300H/2.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -619,7 +619,7 @@ export const galleryImgDataGroup5 = [
         thumb: require('../../assets/images/portfolio/Wedding/300H/3.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -627,7 +627,7 @@ export const galleryImgDataGroup5 = [
         thumb: require('../../assets/images/portfolio/Wedding/300H/4.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -635,7 +635,7 @@ export const galleryImgDataGroup5 = [
         thumb: require('../../assets/images/portfolio/Wedding/300H/5.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
 ];
 
@@ -647,7 +647,7 @@ export const galleryImgDataGroup6 = [
         thumb: require('../../assets/images/portfolio/Period/300H/1.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a> - 1920's era </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -655,7 +655,7 @@ export const galleryImgDataGroup6 = [
         thumb: require('../../assets/images/portfolio/Period/300H/2.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a> - 1960's era </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -663,7 +663,7 @@ export const galleryImgDataGroup6 = [
         thumb: require('../../assets/images/portfolio/Period/300H/3.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a></h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -671,7 +671,7 @@ export const galleryImgDataGroup6 = [
         thumb: require('../../assets/images/portfolio/Period/300H/4.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a> - Cleopatra </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     }
 ];
 
@@ -682,7 +682,7 @@ export const galleryImgDataGroup7 = [
         thumb: require('../../assets/images/portfolio/OnSite/300H/1.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a> </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -690,7 +690,7 @@ export const galleryImgDataGroup7 = [
         thumb: require('../../assets/images/portfolio/OnSite/300H/2.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a> </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -698,7 +698,7 @@ export const galleryImgDataGroup7 = [
         thumb: require('../../assets/images/portfolio/OnSite/300H/3.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a> </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -706,7 +706,7 @@ export const galleryImgDataGroup7 = [
         thumb: require('../../assets/images/portfolio/OnSite/300H/4.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a>  </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     }
 ];
 
@@ -717,7 +717,7 @@ export const galleryImgDataGroup8 = [
         thumb: require('../../assets/images/portfolio/Nails/300H/1.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a> </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
     {
         id: (Incrementer),
@@ -725,7 +725,7 @@ export const galleryImgDataGroup8 = [
         thumb: require('../../assets/images/portfolio/Nails/300H/2.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a> </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     },
 ];
 
@@ -736,6 +736,6 @@ export const galleryImgDataGroup9 = [
         thumb: require('../../assets/images/portfolio/Camouflage/300H/1.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="">Garrett Jackson</a> </h4>
-        <p>Published on May 8, 2020</p></div>`
+        <p>Published on Dec 1, 2021</p></div>`
     }
 ];

@@ -49,7 +49,7 @@ const Portfolio = () => {
         <Navbar toggle={ toggle } />
         <PortfolioContainer>
           <PortfolioHeader> 
-            <h1>Here are completed works, organised by the type of style used.</h1>
+            <h1>Portfolio</h1>
           </PortfolioHeader>
           
           <AlbumContainer>

@@ -29,6 +29,8 @@ export const NavLink = styled(LinkR)`
   };
   &:hover{
       transition: 0.2s ease-in-out;
+      -webkit-transition: 0.2s ease-in-out;
+      -moz-transition: 0.2s ease-in-out;
       padding-bottom: .3em;
       text-decoration-line: underline;
       text-decoration-style: solid;
@@ -40,14 +42,27 @@ export const LogoImg = styled.img `
   padding-top: 7px;
   width: 70px;
   transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+
   transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
 &:hover{
   transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  
   transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
     /* Start the shake animation and make the animation last for 0.5 seconds */
+    -webkit-animation: shake 0.9s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: shake 0.9s;
     animation: shake 0.9s;
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
   };
 
   @keyframes shake {
@@ -62,6 +77,30 @@ export const LogoImg = styled.img `
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+    0% { -webkit-transform: translate(1px, 1px) rotate(0deg); }
+    10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+    30% { -webkit-transform: translate(3px, 2px) rotate(0deg); }
+    40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform: translate(3px, 1px) rotate(-1deg); }
+    80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+    90% { -webkit-transform: translate(1px, 2px) rotate(0deg); }
+    100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+
+    0% { -moz-transform: translate(1px, 1px) rotate(0deg); }
+    10% { -moz-transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { -moz-transform: translate(-3px, 0px) rotate(1deg); }
+    30% { -moz-transform: translate(3px, 2px) rotate(0deg); }
+    40% { -moz-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -moz-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -moz-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -moz-transform: translate(3px, 1px) rotate(-1deg); }
+    80% { -moz-transform: translate(-1px, -1px) rotate(1deg); }
+    90% { -moz-transform: translate(1px, 2px) rotate(0deg); }
+    100% { -moz-transform: translate(1px, -2px) rotate(-1deg); }
   };
 `;
 

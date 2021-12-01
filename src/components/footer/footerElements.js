@@ -13,21 +13,24 @@ export const FooterWrapper = styled.div`
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
+  @media screen and (max-width: 768px) {
+    padding: 22px 10px;
+  };
 `;
 
 export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  @media screen and (max-width: 820px) {
-    padding-top:32px;
+  @media screen and (max-width: 768px) {
+    padding-top: 20px;
   };
 `;
 
 export const FooterLinksWrap = styled.div `
   display: flex;
 
-  @media screen and (max-width: 820px ) {
+  @media screen and (max-width: 768px ) {
     flex-direction: column;
   };
 `;
@@ -42,10 +45,16 @@ export const FooterLinkItems = styled.div `
   box-sizing: border-box;
   color: #ddd8ff;
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 768px) {
     margin: 0;
     padding: 10px;
-    width: 100%;
+    width: 120px;
+  };
+
+  @media screen and (max-width: 400px) {
+    margin: 0;
+    padding: 5px;
+    width: 80px;
   };
 `;
 
