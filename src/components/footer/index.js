@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinksWrap, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, JB, FooterSocialLink, SocialIconLinkFb, SocialIconLinkInsta } from './footerElements';
+import logoImg from "../../assets/GalaxyGirlLogo.png"
 
 const Footer = () => {
     return (
@@ -45,7 +46,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/">
-                            Galaxy Girl Logo
+                            <img src={logoImg} alt="" /> 
                         </SocialLogo>
                         <WebsiteRights>
 
