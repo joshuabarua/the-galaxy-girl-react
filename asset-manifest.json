@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/the-galaxy-girl-react/static/css/main.6629fcb7.chunk.css",
-    "main.js": "/the-galaxy-girl-react/static/js/main.5adc281b.chunk.js",
-    "main.js.map": "/the-galaxy-girl-react/static/js/main.5adc281b.chunk.js.map",
+    "main.css": "/the-galaxy-girl-react/static/css/main.3a16202d.chunk.css",
+    "main.js": "/the-galaxy-girl-react/static/js/main.c8b673d9.chunk.js",
+    "main.js.map": "/the-galaxy-girl-react/static/js/main.c8b673d9.chunk.js.map",
     "runtime-main.js": "/the-galaxy-girl-react/static/js/runtime-main.5554989d.js",
     "runtime-main.js.map": "/the-galaxy-girl-react/static/js/runtime-main.5554989d.js.map",
     "static/css/2.be94e1ff.chunk.css": "/the-galaxy-girl-react/static/css/2.be94e1ff.chunk.css",
-    "static/js/2.d03b4df4.chunk.js": "/the-galaxy-girl-react/static/js/2.d03b4df4.chunk.js",
-    "static/js/2.d03b4df4.chunk.js.map": "/the-galaxy-girl-react/static/js/2.d03b4df4.chunk.js.map",
+    "static/js/2.9f168c98.chunk.js": "/the-galaxy-girl-react/static/js/2.9f168c98.chunk.js",
+    "static/js/2.9f168c98.chunk.js.map": "/the-galaxy-girl-react/static/js/2.9f168c98.chunk.js.map",
     "index.html": "/the-galaxy-girl-react/index.html",
     "static/css/2.be94e1ff.chunk.css.map": "/the-galaxy-girl-react/static/css/2.be94e1ff.chunk.css.map",
-    "static/css/main.6629fcb7.chunk.css.map": "/the-galaxy-girl-react/static/css/main.6629fcb7.chunk.css.map",
-    "static/js/2.d03b4df4.chunk.js.LICENSE.txt": "/the-galaxy-girl-react/static/js/2.d03b4df4.chunk.js.LICENSE.txt",
+    "static/css/main.3a16202d.chunk.css.map": "/the-galaxy-girl-react/static/css/main.3a16202d.chunk.css.map",
+    "static/js/2.9f168c98.chunk.js.LICENSE.txt": "/the-galaxy-girl-react/static/js/2.9f168c98.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/the-galaxy-girl-react/static/media/1.f27525a2.jpg",
     "static/media/10.jpg": "/the-galaxy-girl-react/static/media/10.afe66e53.jpg",
     "static/media/10_1600.jpg": "/the-galaxy-girl-react/static/media/10_1600.c0082286.jpg",
@@ -65,9 +65,11 @@
     "static/media/40.jpg": "/the-galaxy-girl-react/static/media/40.305c07f1.jpg",
     "static/media/41.jpg": "/the-galaxy-girl-react/static/media/41.ba3b59ed.jpg",
     "static/media/42.jpg": "/the-galaxy-girl-react/static/media/42.7e55bc7a.jpg",
+    "static/media/43.PNG": "/the-galaxy-girl-react/static/media/43.b7620f6f.PNG",
+    "static/media/43_300H.jpg": "/the-galaxy-girl-react/static/media/43_300H.02a8faa9.jpg",
     "static/media/4_1600.jpg": "/the-galaxy-girl-react/static/media/4_1600.413ea4ed.jpg",
     "static/media/4_200.jpg": "/the-galaxy-girl-react/static/media/4_200.935e12e5.jpg",
-    "static/media/5.jpg": "/the-galaxy-girl-react/static/media/5.ee67a468.jpg",
+    "static/media/5.jpg": "/the-galaxy-girl-react/static/media/5.f954579c.jpg",
     "static/media/5_1600.jpg": "/the-galaxy-girl-react/static/media/5_1600.774f0544.jpg",
     "static/media/5_200.jpg": "/the-galaxy-girl-react/static/media/5_200.37e958d7.jpg",
     "static/media/6.jpg": "/the-galaxy-girl-react/static/media/6.b15b3e59.jpg",
@@ -97,8 +99,8 @@
   "entrypoints": [
     "static/js/runtime-main.5554989d.js",
     "static/css/2.be94e1ff.chunk.css",
-    "static/js/2.d03b4df4.chunk.js",
-    "static/css/main.6629fcb7.chunk.css",
-    "static/js/main.5adc281b.chunk.js"
+    "static/js/2.9f168c98.chunk.js",
+    "static/css/main.3a16202d.chunk.css",
+    "static/js/main.c8b673d9.chunk.js"
   ]
 }
