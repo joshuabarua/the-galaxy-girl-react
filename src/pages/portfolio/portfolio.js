@@ -53,7 +53,7 @@ const Portfolio = () => {
           </PortfolioHeader>
           
           <AlbumContainer>
-            <h1> Photography </h1>
+            <h1> Beauty and Editorial </h1>
             <LightGalleryContainer>
               
                 <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">

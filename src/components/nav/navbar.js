@@ -35,7 +35,7 @@ const Navbar = ({toggle}) => {
 
                 <NavMenu>
                     <NavLink to="/" activeStyle exact strict>Home</NavLink>
-                    <NavLink to="/resume" activeStyle strict> Resume </NavLink>
+                    <NavLink to="/resume" activeStyle strict> CV </NavLink>
                     <NavLink to="/portfolio" activeStyle>Portfolio</NavLink>
                     <NavLink to="/contact" activeStyle>Contact</NavLink>
                 </NavMenu>
