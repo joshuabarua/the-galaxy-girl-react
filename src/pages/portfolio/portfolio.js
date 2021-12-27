@@ -25,10 +25,6 @@ const Portfolio = () => {
     setIsOpen(!isOpen);
   }
 
- let ImageItemsFunc = (imageItemData) => {
-    const [imageItems3, setimageItems3] = useState(`${imageItemData}`)
-  };
-
   const [imageItems, setImageItems] = useState(galleryImgDataGroup1);
   const [imageItems2, setImageItems2] = useState(galleryImgDataGroup2);
   const [imageItems3, setImageItems3] = useState(galleryImgDataGroup3);
@@ -49,7 +45,7 @@ const Portfolio = () => {
         <Navbar toggle={ toggle } />
         <PortfolioContainer>
           <PortfolioHeader> 
-            <h1>Portfolio</h1>
+            <text><h1>Portfolio</h1></text>
           </PortfolioHeader>
           
           <AlbumContainer>

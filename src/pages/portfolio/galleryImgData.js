@@ -18,21 +18,14 @@ export const galleryImgDataGroup1 = [
     {
         id: (Incrementer),
         size: "1600-2400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/1_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/1_200.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`
-    },
-    {    
-        id: (Incrementer),
-        size:"1600-2400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/3_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/3_200.jpg').default,
+        src: require('../../assets/images/portfolio/beautyEditorial/1600W/15_1600.jpg').default,
+        thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/44.jpg').default,
         subHtml: `<div class="lightGallery-captions">
         <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
         <p>The Countess</p></div>`,
+       
     },
+    
     {    
         id: (Incrementer),
         size:"2400-1600",
@@ -42,87 +35,7 @@ export const galleryImgDataGroup1 = [
         <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
         <p>The Countess</p></div>`,
     },
-    {    
-        id: (Incrementer),
-        size:"1600-2400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/5_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/5_200.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`,
-    },
-    {    
-        id: (Incrementer),
-        size:"2400-1600",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/14_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/450W/14_450.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`,
-    },
-    {
-        id: (Incrementer),
-        size:"1600-2400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/7_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/7_200.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`
-    },
-    {
-        id: (Incrementer),
-        size:"1600-2400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/8_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/8_200.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`
-    },
-    {    
-        id: (Incrementer),
-        size:"1600-2400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/13_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/13_200.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`,
-    },
-    {    
-        id: (Incrementer),
-        size:"1600-2400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/2_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/2_200.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`,
-    },
-    {    
-        id: (Incrementer),
-        size:"1600-2400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/11_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/11_200.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`,
-    },
-    {    
-        id: (Incrementer),
-        size:"2000-1400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/9_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/9_200.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`,
-    },
-    {    
-        id: (Incrementer),
-        size:"1600-2400",
-        src: require('../../assets/images/portfolio/beautyEditorial/1600W/10_1600.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/200W/10_200.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>The Countess</p></div>`,
-    },
+   
     {    
         id: (Incrementer),
         size:"1600-2400",
@@ -140,22 +53,7 @@ export const galleryImgDataGroup1 = [
         <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
         <p>Jarin</p></div>`,
     },
-    {    
-        id: (Incrementer),
-        src: require('../../assets/images/portfolio/beautyEditorial/More/Original/16.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/16.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>Jarin</p></div>`,
-    },
-    {    
-        id: (Incrementer),
-        src: require('../../assets/images/portfolio/beautyEditorial/More/Original/17.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/17.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>Jarin</p></div>`,
-    },
+
     {    
         id: (Incrementer),
         src: require('../../assets/images/portfolio/beautyEditorial/More/Original/18.jpg').default,
@@ -180,14 +78,7 @@ export const galleryImgDataGroup1 = [
         <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
         <p>Jarin</p></div>`,
     },
-    {    
-        id: (Incrementer),
-        src: require('../../assets/images/portfolio/beautyEditorial/More/Original/21.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/21.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>Jarin</p></div>`,
-    },
+
     {    
         id: (Incrementer),
         src: require('../../assets/images/portfolio/beautyEditorial/More/Original/22.jpg').default,
@@ -196,14 +87,7 @@ export const galleryImgDataGroup1 = [
         <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
         <p>Jarin</p></div>`,
     },
-    {    
-        id: (Incrementer),
-        src: require( '../../assets/images/portfolio/beautyEditorial/More/Original/23.jpg').default,
-        thumb: require('../../assets/images/portfolio/beautyEditorial/More/300H/23.jpg').default,
-        subHtml: `<div class="lightGallery-captions">
-        <h4>Photo by <a href="https://www.susangracehinman.co.uk/home">Susan Hinman</a></h4>
-        <p>Boudoir</p></div>`,
-    },
+   
     {    
         id: (Incrementer),
         src: require( '../../assets/images/portfolio/beautyEditorial/More/Original/24.jpg').default,

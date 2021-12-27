@@ -23,9 +23,9 @@ export const PortfolioHeader = styled.div`
     height: 125px;
     
     @media screen and (max-width: 768px) {
-    padding: 15px;
-    padding: 80px 50px 0px 50px;
-    height: 200px;
+    width: 200px;
+    margin: 85px auto;
+    height: 100px;
     font-size: 9px;
     };
 
@@ -44,6 +44,7 @@ export const AlbumContainer = styled.div`
 
     @media screen and (max-width: 768px) {
     width: 100%;
+    margin: 0px;
     };
 
     
@@ -58,5 +59,4 @@ export const LightGalleryContainer = styled.div`
     @media screen and (max-width: 768px) {
     padding: 0px 2px 10px 2px;
     };
-    
     `;

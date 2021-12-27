@@ -1,33 +1,28 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 
 import { Nav, NavLink, Bars, NavMenu, NavBtn, IconInsta, IconFB, LogoImg } from './navElements';
 import logoImg from "../../assets/GalaxyGirlLogo.png"
 
 
 
-const Navbar = ({toggle}) => {
+const Navbar = ( {toggle}) => {
 
     const [scrollNav, setScrollNav] = useState(false)
 
     const changeNav = () => {
-        if(window.scrollY >= 600) {
-            setScrollNav(true)
+        if(window.scrollY >= 200) {
+            setScrollNav(true);
         } else {
-            setScrollNav(false)
+            setScrollNav(false);
         }
-    }
+    };
+    
+    window.addEventListener('scroll', changeNav);
 
-    useEffect( () => {
-            if(window.location.pathname === '/'){
-                window.addEventListener('scroll', changeNav)
-            } else {
-                setScrollNav(true)
-            }
-        }, [])
     
     return (
         <>
-            <Nav scrollNav={scrollNav}>
+            <Nav scrollNav={scrollNav} >
                 <NavLink to='/'>
                     <LogoImg src={logoImg} /> 
                 </NavLink>

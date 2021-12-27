@@ -3,19 +3,25 @@ import { NavLink as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? '#24003b' : 'transparent')};
+  background: ${({ scrollNav }) => (scrollNav ? 'rgba(36, 0, 59, 0.5)' : '#24003b')};
   height: 80px;
-  margin-top: -80px; 
+  width: 100%;
+  margin-top: -0px; 
   display: flex;
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  transition: 0.4s ease-in-out;
+  top: ${({ scrollNav }) => (scrollNav ? '-20%' : '0')};
+
+  &:hover {
+    background: #24003b;
+  }
 `;
 
 export const NavLink = styled(LinkR)`
-  color: #ddd8ff;
+  color: ${({ scrollNav }) => (scrollNav ? 'transparent' : '#ddd8ff')};
   display: flex;
   align-items: center;
   text-decoration: none;

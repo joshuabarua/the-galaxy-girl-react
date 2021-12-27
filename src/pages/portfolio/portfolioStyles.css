@@ -16,13 +16,23 @@
     transition: ease-in-out 0.4s;
     -webkit-animation: 0.4s ease-in-out;
     -moz-animation: ease-in-out 0.4s;
-
-    
-
 }
 
 @media screen and (max-width: 768px) {
-        .gallery-item img:hover {
-        transform: none;
-        };
+    .gallery-item img{
+        padding-top: 5px !important;
+        max-height: 125px;
+    };
+
+    .gallery-item img:hover {
+    transform: none;
+    };
+
+    .gallery-item {
+        margin: 10px !important;
+    }
+
+    .lg-react-element .animated-thumbnails-gallery{
+        padding: 0px !important;
+    }
 }
