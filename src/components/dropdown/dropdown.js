@@ -11,7 +11,7 @@ export const Dropdown = ({toggle, isOpen}) => {
             <DropdownWrapper>
                 <DropdownMenu>
                     <DropdownLink to= "/" activeStyle exact strict onClick={toggle}> Home</DropdownLink>
-                    <DropdownLink to= "/resume" onClick={toggle} activeStyle > Resume</DropdownLink>
+                    <DropdownLink to= "/resume" onClick={toggle} activeStyle > CV </DropdownLink>
                     <DropdownLink to= "/portfolio" onClick={toggle} activeStyle> Portfolio</DropdownLink>
                     <DropdownLink to= "/contact" onClick={toggle} activeStyle> Contact</DropdownLink>
                 </DropdownMenu>

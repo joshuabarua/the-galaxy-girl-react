@@ -7,7 +7,7 @@ import { aboutObjOne } from '../components/infoSection/data';
 import Slider from '../components/slider/slider';
 import ImageSection from '../components/imageSection/imageSection';
 import Footer from '../components/footer/index';
-
+import Fade from 'react-reveal/Fade';
   
 const Home = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,13 +20,22 @@ const Home = (props) => {
 
   return (
     <>
-      <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={ toggle } />
-      <HeroSection />
-      <InfoSection {...aboutObjOne}> </InfoSection>
-      <Slider />
-      <ImageSection />
-      <Footer />
+      
+        <Dropdown isOpen={isOpen} toggle={toggle} />
+        <Navbar toggle={ toggle } />
+        <HeroSection />
+        <Fade > 
+          <InfoSection {...aboutObjOne}> </InfoSection>
+        </Fade>
+        <Fade> 
+          <Slider />
+        </Fade>
+        <Fade>
+          <ImageSection />
+        </Fade>
+        <Fade>
+          <Footer />
+        </Fade>
     </>
   );
 };

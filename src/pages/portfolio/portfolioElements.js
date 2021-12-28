@@ -44,10 +44,8 @@ export const AlbumContainer = styled.div`
 
     @media screen and (max-width: 768px) {
     width: 100%;
-    margin: 0px;
+    margin: 20px 0;
     };
-
-    
 
 `
 

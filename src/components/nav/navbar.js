@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import { Nav, NavLink, Bars, NavMenu, NavBtn, IconInsta, IconFB, LogoImg } from './navElements';
 import logoImg from "../../assets/GalaxyGirlLogo.png"
-
+import Fade from "react-reveal/Fade";
 
 
 const Navbar = ( {toggle}) => {
@@ -22,6 +22,7 @@ const Navbar = ( {toggle}) => {
     
     return (
         <>
+
             <Nav scrollNav={scrollNav} >
                 <NavLink to='/'>
                     <LogoImg src={logoImg} /> 
@@ -39,9 +40,8 @@ const Navbar = ( {toggle}) => {
                 <a href="https://www.facebook.com/thegalaxygirl" target="_blank" rel="noreferrer"> <IconFB/> </a>
                 <a href="https://www.instagram.com/emmathegalaxygirl/" target="_blank" rel="noreferrer">   <IconInsta/> </a>
                 </NavBtn>
-                
             </Nav>
-            
+        
         </>
     );
 };

@@ -45,7 +45,7 @@ export const NavLink = styled(LinkR)`
 
 export const LogoImg = styled.img `
   padding-top: 7px;
-  width: 70px;
+  max-width: 50px;
   transition: 0.5s ease-in-out;
   -webkit-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;

@@ -5,6 +5,7 @@ import Dropdown from '../../components/dropdown/dropdown';
 import Footer from '../../components/footer/index';
 import emmaCVpdf from '../../assets/CV/BlankCV.pdf';
 import './resume.css';
+import Fade from 'react-reveal/Fade';
 
 const Resume = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -36,266 +37,307 @@ const Resume = () => {
 
 
     return (
-        
             <ResumeContainer>
                 <Dropdown isOpen={isOpen} toggle={toggle} />
-                <Navbar toggle={ toggle } />
+                <Navbar toggle={ toggle } /> 
                 <ResumeWrapper>
                     <button className="downloadBtn"> <a href={emmaCVpdf} download="MUA_EmmaRoby_CV"> Download CV </a> </button>
-                    <ResumeContact> 
-                        <text>
-                            <h2> Emma Robyn </h2> 
-                            <h6> Makeup Artist Trainee  </h6>
-                            <h6> ScreenSkills Film Trainee 2020-21</h6>
-                            <h6> Brighton and London based, willing to travel </h6>
-                            <h6> M: (+44) 1234567890 &nbsp;&nbsp;&nbsp;&nbsp; E: email@email.com </h6>
-                        </text>
-                    </ResumeContact>
+                    
+                    <Fade > 
+                        <ResumeContact> 
+                            <text>
+                                <h2> Emma Robyn </h2> 
+                                <h6> Makeup Artist Trainee  </h6>
+                                <h6> ScreenSkills Film Trainee 2020-21</h6>
+                                <h6> Brighton and London based, willing to travel </h6>
+                                <h6> M: (+44) 1234567890 &nbsp;&nbsp;&nbsp;&nbsp; E: email@email.com </h6>
+                            </text>
+                        </ResumeContact>
+                    </Fade>
 
-                    <ResumeBio>
-                        <text>
-                            <h4> 
-                                A creative makeup artist looking to work in the film industry by expanding my expertise, knowledge and repertoire of skills
-                                having been accepted as a Screenskills 2020/21 trainee. 
-                                Currently training 1.5 days a week as a Barber in an effort to expand upon my skills during Covid related downtime,
-                                finishing in July 2021. Based in Brighton, London (close to Pinewood or South East) and Norwich with accommodation at
-                                each location.
-                            </h4>
-                        </text>
-                    </ResumeBio>
+                    <Fade > 
+                        <ResumeBio>
+                            <text>
+                                <h4> 
+                                    A creative makeup artist looking to work in the film industry by expanding my expertise, knowledge and repertoire of skills
+                                    having been accepted as a Screenskills 2020/21 trainee. 
+                                    Currently training 1.5 days a week as a Barber in an effort to expand upon my skills during Covid related downtime,
+                                    finishing in July 2021. Based in Brighton, London (close to Pinewood or South East) and Norwich with accommodation at
+                                    each location.
+                                </h4>
+                            </text>
+                        </ResumeBio>
+                    </Fade>
 
-                    <WorkExperienceTitle>
-                        <text>
-                            <h3>Work Experience</h3>
-                            <h4>Films / Short Films</h4>
-                        </text>
+                    <Fade> 
+                        <WorkExperienceTitle>
+                            <text>
+                                <h3>Work Experience</h3>
+                                <h4>Films / Short Films</h4>
+                            </text>
+                            
+                        </WorkExperienceTitle>
+                    </Fade>
+
+                    <Fade > 
+                        <WorkExperienceData> 
+                            <span> 
+                            <h4>Job / Title </h4>
+                            </span>
+
+                            <span> 
+                            <h4>Designer/Production</h4>
+                            </span>
+
+                            <span> 
+                            <h4>Role & Job Details</h4>
+                            </span>
+
+                            { expData.slice(0,5).map((list) => 
+                                {
+                                    return (
+                                        <>
+                                            <span key={list.id}>
+                                                <h5>{list.title}</h5>
+                                            </span>  
+
+                                            <span key={list.id}>
+                                                <h5>{list.designer} </h5>
+                                            </span>  
+                                            
+                                            <span key={list.id}>
+                                                <h5>{list.role}</h5>
+                                            </span> 
+                                        </>
+                                    );
+                                })
+                            }   
+                        </WorkExperienceData>
+                    </Fade>
+
+                    <Fade bottom> 
+                        <TVExpTitle>
+                                <h4>TV / Adverts</h4>                    
+                        </TVExpTitle>
+                    </Fade>
+
+                    <Fade bottom> 
+                        <TvExpData> 
+                            { expData.slice(5,8).map((list2) => 
+                                {
+                                    return (
+                                        <>
+                                            <span key={list2.id}>
+                                                <h5>{list2.title}</h5>
+                                            </span>  
+
+                                            <span key={list2.id}>
+                                                <h5>{list2.designer} </h5>
+                                            </span>  
+                                            
+                                            <span key={list2.id}>
+                                                <h5>{list2.role}</h5>
+                                            </span> 
+                                        </>
+                                    );
+                                })
+                            }   
+                        </TvExpData>
+                    </Fade>
+
+                    <Fade bottom> 
+                        <CommercialExpTitle>
+                                <h4>Commercial / Internal Videos</h4>                    
+                        </CommercialExpTitle>
+                    </Fade>
+
+                    <Fade bottom> 
+                        <CommercialExpData>
+                        { expData.slice(8,10).map((list3) => 
+                                {
+                                    return (
+                                        <>
+                                            <span key={list3.id}>
+                                                <h5>{list3.title}</h5>
+                                            </span>  
+
+                                            <span key={list3.id}>
+                                                <h5>{list3.designer} </h5>
+                                            </span>  
+                                            
+                                            <span key={list3.id}>
+                                                <h5>{list3.role}</h5>
+                                            </span> 
+                                        </>
+                                    );
+                                })
+                            }  
+                        </CommercialExpData>
+                    </Fade>
+                    
+                    <Fade bottom> 
+                        <TheatreExpTitle>
+                            <h4>Theatre</h4>
+                        </TheatreExpTitle>
+                    </Fade>
+                    
+                    <Fade bottom> 
+                        <TheatreExpData>
+                        { expData.slice(10,11).map((list3) => 
+                                {
+                                    return (
+                                        <>
+                                            <span key={list3.id}>
+                                                <h5>{list3.title}</h5>
+                                            </span>  
+
+                                            <span key={list3.id}>
+                                                <h5>{list3.designer} </h5>
+                                            </span>  
+                                            
+                                            <span key={list3.id}>
+                                                <h5>{list3.role}</h5>
+                                            </span> 
+                                        </>
+                                    );
+                                })
+                            }  
+                        </TheatreExpData>
+                    </Fade>
+                    
+                    <Fade bottom> 
+                        <WorkshopsExpTitle>
+                            <h4>Workshops</h4>
+                        </WorkshopsExpTitle>
+                    </Fade>
+                    
+                    <Fade bottom> 
+                        <WorkshopsExpData>
+                        { expData.slice(11,12).map((list3) => 
+                                {
+                                    return (
+                                        <>
+                                            <span key={list3.id}>
+                                                <h5>{list3.title}</h5>
+                                            </span>  
+
+                                            <span key={list3.id}>
+                                                <h5>{list3.designer} </h5>
+                                            </span>  
+                                            
+                                            <span key={list3.id}>
+                                                <h5>{list3.role}</h5>
+                                            </span> 
+                                        </>
+                                    );
+                                })
+                            }  
+                        </WorkshopsExpData>
+                    </Fade> 
+
+                    <Fade bottom> 
+                        <FashionExpTitle>
+                            <h4>Fashion</h4>
+                        </FashionExpTitle>
+                    </Fade>
+                    
+                    <Fade bottom> 
+                        <FashionExpData>
+                        { expData.slice(12,14).map((list3) => 
+                                {
+                                    return (
+                                        <>
+                                            <span key={list3.id}>
+                                                <h5>{list3.title}</h5>
+                                            </span>  
+
+                                            <span key={list3.id}>
+                                                <h5>{list3.designer} </h5>
+                                            </span>  
+                                            
+                                            <span key={list3.id}>
+                                                <h5>{list3.role}</h5>
+                                            </span> 
+                                        </>
+                                    );
+                                })
+                            }  
+                        </FashionExpData>
+                    </Fade>
+
+                    <Fade bottom> 
+                        <VideogamesExpTitle>
+                            <h4>Video Games</h4>
+                        </VideogamesExpTitle>
+                    </Fade>
+                    
+                    <Fade bottom> 
+                        <VideogamesExpData>
+                        { expData.slice(14,15).map((list3) => 
+                                {
+                                    return (
+                                        <>
+                                            <span key={list3.id}>
+                                                <h5>{list3.title}</h5>
+                                            </span>  
+
+                                            <span key={list3.id}>
+                                                <h5>{list3.designer} </h5>
+                                            </span>  
+                                            
+                                            <span key={list3.id}>
+                                                <h5>{list3.role}</h5>
+                                            </span> 
+                                        </>
+                                    );
+                                })
+                            }  
+                        </VideogamesExpData>
+                    </Fade>
                         
-                    </WorkExperienceTitle>
+                    <Fade bottom> 
+                        <QualificationTraining>
+                            <h3>Qualifications & Training </h3>
+                            <div className='qualificatonList'>
+                                <ul>
+                                    <li> <h5> Extended Level 3 Diploma in Theatrical hair and Media Makeup – Grade: Distinction</h5></li>
+                                    <li> <h5> Diploma in Gel Polish, accredited by the Guild of Beauty Therapists </h5></li>
+                                    <li> <h5> Intensive Flat mould & SFX training with Laura Odette Phipps </h5></li>
+                                    <li> <h5> Screenskills training: Production safety Passport (Safe management of productions)  </h5></li>
+                                    <li> <h5> Screenskills training: Tackling harassment and bullying at work & Coronavirus basic awareness on production training </h5> </li>
+                                    <li> <h5> Barbicide & Barbicide Covid-19 Certifications </h5> </li>
+                                    <li> <h5> Kryolan Casualty Effects and Camouflage Workshop </h5> </li>
+                                    <li> <h5>  Online Workshop with Naomi Donne </h5></li>
+                                    <li> <h5> Barbering Level 2 – in progress </h5></li>
+                                </ul>
+                            </div>
+                        </QualificationTraining>
+                    </Fade>
+                        
+                    <Fade bottom> 
+                        <TransferrableSkills>
+                                <h3>Transferrable Skills</h3>
+                                <h6> Working in hospitality has allowed me to effectively manage my time during short turn arounds, promptly resolving issues and anticipating needs while delivering a fast, friendly service. It’s also taught me to make great tea and coffee! I’ve training in hygiene, health and safety and customer service. I’ve managed opening and closing duties including reconciliation of the cash drawer, so I’ve cash handling skills as well as overseeing and prioritizing daily tasks and handling stock control.</h6>
+                        </TransferrableSkills>
+                    </Fade>
                     
-                    <WorkExperienceData> 
-                        <span> 
-                        <h4>Job / Title </h4>
-                        </span>
-
-                        <span> 
-                        <h4>Designer/Production</h4>
-                        </span>
-
-                        <span> 
-                        <h4>Role & Job Details</h4>
-                        </span>
-
-                        { expData.slice(0,5).map((list) => 
-                            {
-                                return (
-                                    <>
-                                        <span key={list.id}>
-                                            <h5>{list.title}</h5>
-                                        </span>  
-
-                                        <span key={list.id}>
-                                            <h5>{list.designer} </h5>
-                                        </span>  
-                                        
-                                        <span key={list.id}>
-                                            <h5>{list.role}</h5>
-                                        </span> 
-                                    </>
-                                );
-                            })
-                        }   
-                    </WorkExperienceData>
-
-                    <TVExpTitle>
-                            <h4>TV / Adverts</h4>                    
-                    </TVExpTitle>
-
-                    <TvExpData> 
-                        { expData.slice(5,8).map((list2) => 
-                            {
-                                return (
-                                    <>
-                                        <span key={list2.id}>
-                                            <h5>{list2.title}</h5>
-                                        </span>  
-
-                                        <span key={list2.id}>
-                                            <h5>{list2.designer} </h5>
-                                        </span>  
-                                        
-                                        <span key={list2.id}>
-                                            <h5>{list2.role}</h5>
-                                        </span> 
-                                    </>
-                                );
-                            })
-                        }   
-                    </TvExpData>
-
-                    <CommercialExpTitle>
-                            <h4>Commercial / Internal Videos</h4>                    
-                    </CommercialExpTitle>
-
-                    <CommercialExpData>
-                    { expData.slice(8,10).map((list3) => 
-                            {
-                                return (
-                                    <>
-                                        <span key={list3.id}>
-                                            <h5>{list3.title}</h5>
-                                        </span>  
-
-                                        <span key={list3.id}>
-                                            <h5>{list3.designer} </h5>
-                                        </span>  
-                                        
-                                        <span key={list3.id}>
-                                            <h5>{list3.role}</h5>
-                                        </span> 
-                                    </>
-                                );
-                            })
-                        }  
-                    </CommercialExpData>
-                    
-                    <TheatreExpTitle>
-                        <h4>Theatre</h4>
-                    </TheatreExpTitle>
-
-                    <TheatreExpData>
-                    { expData.slice(10,11).map((list3) => 
-                            {
-                                return (
-                                    <>
-                                        <span key={list3.id}>
-                                            <h5>{list3.title}</h5>
-                                        </span>  
-
-                                        <span key={list3.id}>
-                                            <h5>{list3.designer} </h5>
-                                        </span>  
-                                        
-                                        <span key={list3.id}>
-                                            <h5>{list3.role}</h5>
-                                        </span> 
-                                    </>
-                                );
-                            })
-                        }  
-                    </TheatreExpData>
-
-                    <WorkshopsExpTitle>
-                        <h4>Workshops</h4>
-                    </WorkshopsExpTitle>
-
-                    <WorkshopsExpData>
-                    { expData.slice(11,12).map((list3) => 
-                            {
-                                return (
-                                    <>
-                                        <span key={list3.id}>
-                                            <h5>{list3.title}</h5>
-                                        </span>  
-
-                                        <span key={list3.id}>
-                                            <h5>{list3.designer} </h5>
-                                        </span>  
-                                        
-                                        <span key={list3.id}>
-                                            <h5>{list3.role}</h5>
-                                        </span> 
-                                    </>
-                                );
-                            })
-                        }  
-                    </WorkshopsExpData>
-
-                    <FashionExpTitle>
-                        <h4>Fashion</h4>
-                    </FashionExpTitle>
-                    
-                    <FashionExpData>
-                    { expData.slice(12,14).map((list3) => 
-                            {
-                                return (
-                                    <>
-                                        <span key={list3.id}>
-                                            <h5>{list3.title}</h5>
-                                        </span>  
-
-                                        <span key={list3.id}>
-                                            <h5>{list3.designer} </h5>
-                                        </span>  
-                                        
-                                        <span key={list3.id}>
-                                            <h5>{list3.role}</h5>
-                                        </span> 
-                                    </>
-                                );
-                            })
-                        }  
-                    </FashionExpData>
-
-                    <VideogamesExpTitle>
-                        <h4>Video Games</h4>
-                    </VideogamesExpTitle>
-                    
-                    <VideogamesExpData>
-                    { expData.slice(14,15).map((list3) => 
-                            {
-                                return (
-                                    <>
-                                        <span key={list3.id}>
-                                            <h5>{list3.title}</h5>
-                                        </span>  
-
-                                        <span key={list3.id}>
-                                            <h5>{list3.designer} </h5>
-                                        </span>  
-                                        
-                                        <span key={list3.id}>
-                                            <h5>{list3.role}</h5>
-                                        </span> 
-                                    </>
-                                );
-                            })
-                        }  
-                    </VideogamesExpData>
-                    
-                    <QualificationTraining>
-                        <h3>Qualifications & Training </h3>
-                        <div className='qualificatonList'>
-                            <ul>
-                                <li> <h5> Extended Level 3 Diploma in Theatrical hair and Media Makeup – Grade: Distinction</h5></li>
-                                <li> <h5> Diploma in Gel Polish, accredited by the Guild of Beauty Therapists </h5></li>
-                                <li> <h5> Intensive Flat mould & SFX training with Laura Odette Phipps </h5></li>
-                                <li> <h5> Screenskills training: Production safety Passport (Safe management of productions)  </h5></li>
-                                <li> <h5> Screenskills training: Tackling harassment and bullying at work & Coronavirus basic awareness on production training </h5> </li>
-                                <li> <h5> Barbicide & Barbicide Covid-19 Certifications </h5> </li>
-                                <li> <h5> Kryolan Casualty Effects and Camouflage Workshop </h5> </li>
-                                <li> <h5>  Online Workshop with Naomi Donne </h5></li>
-                                <li> <h5> Barbering Level 2 – in progress </h5></li>
-                            </ul>
-                        </div>
-                    </QualificationTraining>
-
-                    <TransferrableSkills>
-                            <h3>Transferrable Skills</h3>
-                            <h6> Working in hospitality has allowed me to effectively manage my time during short turn arounds, promptly resolving issues and anticipating needs while delivering a fast, friendly service. It’s also taught me to make great tea and coffee! I’ve training in hygiene, health and safety and customer service. I’ve managed opening and closing duties including reconciliation of the cash drawer, so I’ve cash handling skills as well as overseeing and prioritizing daily tasks and handling stock control.</h6>
-                    </TransferrableSkills>
-                    
-                    <ReferencesReq>
-                        <h4> References Available on Request</h4>
-                    </ReferencesReq>
-
-                    <ClosingFoot>
-                        <h5>GDPR STATEMENT: This CV may be kept on file and distributed for employment purposes</h5>
-                    </ClosingFoot>
+                    <Fade bottom> 
+                        <ReferencesReq>
+                            <h4> References Available on Request</h4>
+                        </ReferencesReq>
+                    </Fade>
+                    <Fade bottom> 
+                        <ClosingFoot>
+                            <h5>GDPR STATEMENT: This CV may be kept on file and distributed for employment purposes</h5>
+                        </ClosingFoot>
+                    </Fade>
                 </ResumeWrapper>
+                
+                <Fade bottom> 
+                    <Footer/>
+                </Fade>
 
-                <Footer/>
-            </ResumeContainer>
-    
+                </ResumeContainer>
     )
 }
 

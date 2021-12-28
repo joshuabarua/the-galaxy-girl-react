@@ -5,6 +5,8 @@ import Footer from '../../components/footer/index';
 import emailjs from 'emailjs-com';
 import Lottie from 'react-lottie';
 import confettiData from "../../assets/lotties/confetti2.json"
+import Fade from 'react-reveal/Fade'
+
 
 import './contact.css';
 
@@ -20,7 +22,6 @@ const Result = () => {
     <>
       <Lottie options={defaultOptions}  />
       <p className="sentMsg">Your message has successfully been sent! We will contact you soon. </p>
-      
     </>
   );
 };
@@ -56,11 +57,17 @@ const Contact = () => {
   return (
     <>
       <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={ toggle } />
+      
+      <Fade > <Navbar toggle={ toggle } /></Fade> 
 
       <div className="body">
-        <div className="contactMe">
+        <Fade>
           <div className="contactOverlay">
+
+            <div className="title"> 
+            <text><h1> Message me! </h1></text>
+            </div>
+
             <div className="container">
               <div className="form">
 
@@ -89,9 +96,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
+          </Fade>
       </div>
-      
       <Footer />
     </>
   ) 
