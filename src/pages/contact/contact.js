@@ -75,7 +75,7 @@ const Contact = () => {
     <>
       <Dropdown isOpen={isOpen} toggle={toggle} />
       
-      <Fade > <Navbar toggle={ toggle } /></Fade> 
+     <Navbar toggle={ toggle } />
 
       <div className="body">
         <Fade>
