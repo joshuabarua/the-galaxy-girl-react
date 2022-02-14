@@ -86,12 +86,8 @@ const Contact = () => {
             </div>
 
             <div className="container">
-          
               <div className="form">
-              
-
                 <form action="" onSubmit={customSubmit} >
-
                   <div className="formWord">
                     <span> Name / Company </span>
                     <input type="text" placeholder="Name/Company" name="name" value="test"required />
