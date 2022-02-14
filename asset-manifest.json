@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/the-galaxy-girl-react/static/css/main.cd8ff658.chunk.css",
-    "main.js": "/the-galaxy-girl-react/static/js/main.b6a48269.chunk.js",
-    "main.js.map": "/the-galaxy-girl-react/static/js/main.b6a48269.chunk.js.map",
+    "main.css": "/the-galaxy-girl-react/static/css/main.c3d12cf2.chunk.css",
+    "main.js": "/the-galaxy-girl-react/static/js/main.8fd9c640.chunk.js",
+    "main.js.map": "/the-galaxy-girl-react/static/js/main.8fd9c640.chunk.js.map",
     "runtime-main.js": "/the-galaxy-girl-react/static/js/runtime-main.5554989d.js",
     "runtime-main.js.map": "/the-galaxy-girl-react/static/js/runtime-main.5554989d.js.map",
     "static/css/2.be94e1ff.chunk.css": "/the-galaxy-girl-react/static/css/2.be94e1ff.chunk.css",
-    "static/js/2.0fcdfba4.chunk.js": "/the-galaxy-girl-react/static/js/2.0fcdfba4.chunk.js",
-    "static/js/2.0fcdfba4.chunk.js.map": "/the-galaxy-girl-react/static/js/2.0fcdfba4.chunk.js.map",
+    "static/js/2.b3a978a1.chunk.js": "/the-galaxy-girl-react/static/js/2.b3a978a1.chunk.js",
+    "static/js/2.b3a978a1.chunk.js.map": "/the-galaxy-girl-react/static/js/2.b3a978a1.chunk.js.map",
     "index.html": "/the-galaxy-girl-react/index.html",
     "static/css/2.be94e1ff.chunk.css.map": "/the-galaxy-girl-react/static/css/2.be94e1ff.chunk.css.map",
-    "static/css/main.cd8ff658.chunk.css.map": "/the-galaxy-girl-react/static/css/main.cd8ff658.chunk.css.map",
-    "static/js/2.0fcdfba4.chunk.js.LICENSE.txt": "/the-galaxy-girl-react/static/js/2.0fcdfba4.chunk.js.LICENSE.txt",
+    "static/css/main.c3d12cf2.chunk.css.map": "/the-galaxy-girl-react/static/css/main.c3d12cf2.chunk.css.map",
+    "static/js/2.b3a978a1.chunk.js.LICENSE.txt": "/the-galaxy-girl-react/static/js/2.b3a978a1.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/the-galaxy-girl-react/static/media/1.f27525a2.jpg",
     "static/media/10.jpg": "/the-galaxy-girl-react/static/media/10.afe66e53.jpg",
     "static/media/11.jpg": "/the-galaxy-girl-react/static/media/11.5a8b94de.jpg",
@@ -76,8 +76,8 @@
   "entrypoints": [
     "static/js/runtime-main.5554989d.js",
     "static/css/2.be94e1ff.chunk.css",
-    "static/js/2.0fcdfba4.chunk.js",
-    "static/css/main.cd8ff658.chunk.css",
-    "static/js/main.b6a48269.chunk.js"
+    "static/js/2.b3a978a1.chunk.js",
+    "static/css/main.c3d12cf2.chunk.css",
+    "static/js/main.8fd9c640.chunk.js"
   ]
 }
