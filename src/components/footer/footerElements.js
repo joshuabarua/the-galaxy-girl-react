@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
+
+
 export const FooterContainer = styled.footer`
   background-color: #24003b;
 `;
@@ -16,6 +18,10 @@ export const FooterWrapper = styled.div`
   @media screen and (max-width: 768px) {
     padding: 22px 10px;
   };
+
+  @media screen and (max-width: 480px) {
+    padding: 4px;
+  };
 `;
 
 export const FooterLinksContainer = styled.div`
@@ -24,6 +30,10 @@ export const FooterLinksContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding-top: 20px;
+  };
+
+  @media screen and (max-width: 480px) {
+    padding-top: 10px;
   };
 `;
 
@@ -51,16 +61,21 @@ export const FooterLinkItems = styled.div `
     width: 120px;
   };
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     margin: 0;
-    padding: 5px;
-    width: 80px;
+    padding: 4px;
+    width: 90px;
   };
 `;
 
 export const FooterLinkTitle = styled.h1 `
   font-size: 12px;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 12px;
+    margin-bottom: 5px;
+  };
 `;
 
 export const FooterLink = styled(Link) `
@@ -73,6 +88,11 @@ export const FooterLink = styled(Link) `
     color: #e4405f;
     transition: 0.3s ease-out;
   };
+
+  @media screen and (max-width: 480px) {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
 `;
 
 export const FooterSocialLink = styled.a `
@@ -85,6 +105,11 @@ export const FooterSocialLink = styled.a `
     color: #e4405f;
     transition: 0.3s ease-out;
   };
+
+  @media screen and (max-width: 480px) {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
 `;
 
 
@@ -115,11 +140,22 @@ export const SocialLogo = styled(Link) `
   align-items: center;
   margin-bottom: 14px;
   font-weight: bold;
+
+  @media screen and (max-width: 480px) {
+    transform: scale(0.5);
+    margin-bottom: 0px;
+    margin-top: -30px;
+  }
 `;
 
 export const WebsiteRights = styled.small `
   color: #ddd8ff;
   margin-bottom: 16px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
 
 `;
 
@@ -139,6 +175,11 @@ export const SocialIconLinkFb = styled(Link) `
     margin-bottom: .3em;
     transform: scale(1.5);
   };
+
+
+@media screen and (max-width: 480px) {
+    padding-top: 5px;
+  }
 `;
 
 export const SocialIconLinkInsta = styled(Link) `
@@ -151,6 +192,10 @@ export const SocialIconLinkInsta = styled(Link) `
   margin-bottom: .3em;
   transform: scale(1.5);
 };
+
+@media screen and (max-width: 480px) {
+    padding-top: 5px;
+  }
   `;
 
 export const JB = styled(Link) `
@@ -160,5 +205,10 @@ export const JB = styled(Link) `
     color: #e4405f;
     transition: 0.3s ease-out;
   };
+
+  @media screen and (max-width: 480px) {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
 `;
   

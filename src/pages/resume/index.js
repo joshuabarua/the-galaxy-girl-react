@@ -43,7 +43,7 @@ const Resume = () => {
                 <ResumeWrapper>
                     <button className="downloadBtn"> <a href={emmaCVpdf} download="MUA_EmmaRoby_CV"> Download CV </a> </button>
                     
-                    <Fade > 
+                    
                         <ResumeContact> 
                             <text>
                                 <h2> Emma Robyn </h2> 
@@ -53,9 +53,9 @@ const Resume = () => {
                                 <h6> M: (+44) 1234567890 &nbsp;&nbsp;&nbsp;&nbsp; E: email@email.com </h6>
                             </text>
                         </ResumeContact>
-                    </Fade>
+                    
 
-                    <Fade > 
+                
                         <ResumeBio>
                             <text>
                                 <h4> 
@@ -67,9 +67,9 @@ const Resume = () => {
                                 </h4>
                             </text>
                         </ResumeBio>
-                    </Fade>
+                    
 
-                    <Fade> 
+            
                         <WorkExperienceTitle>
                             <text>
                                 <h3>Work Experience</h3>
@@ -77,9 +77,9 @@ const Resume = () => {
                             </text>
                             
                         </WorkExperienceTitle>
-                    </Fade>
+                    
 
-                    <Fade > 
+                
                         <WorkExperienceData> 
                             <span> 
                             <h4>Job / Title </h4>
@@ -113,15 +113,15 @@ const Resume = () => {
                                 })
                             }   
                         </WorkExperienceData>
-                    </Fade>
+                    
 
-                    <Fade bottom> 
+                    
                         <TVExpTitle>
                                 <h4>TV / Adverts</h4>                    
                         </TVExpTitle>
-                    </Fade>
+                    
 
-                    <Fade bottom> 
+                    
                         <TvExpData> 
                             { expData.slice(5,8).map((list2) => 
                                 {
@@ -143,15 +143,15 @@ const Resume = () => {
                                 })
                             }   
                         </TvExpData>
-                    </Fade>
+                    
 
-                    <Fade bottom> 
+                    
                         <CommercialExpTitle>
                                 <h4>Commercial / Internal Videos</h4>                    
                         </CommercialExpTitle>
-                    </Fade>
+                    
 
-                    <Fade bottom> 
+                    
                         <CommercialExpData>
                         { expData.slice(8,10).map((list3) => 
                                 {
@@ -173,15 +173,15 @@ const Resume = () => {
                                 })
                             }  
                         </CommercialExpData>
-                    </Fade>
                     
-                    <Fade bottom> 
+                    
+                    
                         <TheatreExpTitle>
                             <h4>Theatre</h4>
                         </TheatreExpTitle>
-                    </Fade>
                     
-                    <Fade bottom> 
+                    
+                    
                         <TheatreExpData>
                         { expData.slice(10,11).map((list3) => 
                                 {
@@ -203,15 +203,15 @@ const Resume = () => {
                                 })
                             }  
                         </TheatreExpData>
-                    </Fade>
                     
-                    <Fade bottom> 
+                    
+                    
                         <WorkshopsExpTitle>
                             <h4>Workshops</h4>
                         </WorkshopsExpTitle>
-                    </Fade>
                     
-                    <Fade bottom> 
+                    
+                    
                         <WorkshopsExpData>
                         { expData.slice(11,12).map((list3) => 
                                 {
@@ -233,15 +233,15 @@ const Resume = () => {
                                 })
                             }  
                         </WorkshopsExpData>
-                    </Fade> 
+                     
 
-                    <Fade bottom> 
+                    
                         <FashionExpTitle>
                             <h4>Fashion</h4>
                         </FashionExpTitle>
-                    </Fade>
                     
-                    <Fade bottom> 
+                    
+                    
                         <FashionExpData>
                         { expData.slice(12,14).map((list3) => 
                                 {
@@ -263,15 +263,15 @@ const Resume = () => {
                                 })
                             }  
                         </FashionExpData>
-                    </Fade>
+                    
 
-                    <Fade bottom> 
+                    
                         <VideogamesExpTitle>
                             <h4>Video Games</h4>
                         </VideogamesExpTitle>
-                    </Fade>
                     
-                    <Fade bottom> 
+                    
+                    
                         <VideogamesExpData>
                         { expData.slice(14,15).map((list3) => 
                                 {
@@ -293,9 +293,9 @@ const Resume = () => {
                                 })
                             }  
                         </VideogamesExpData>
-                    </Fade>
+                    
                         
-                    <Fade bottom> 
+                    
                         <QualificationTraining>
                             <h3>Qualifications & Training </h3>
                             <div className='qualificatonList'>
@@ -312,30 +312,30 @@ const Resume = () => {
                                 </ul>
                             </div>
                         </QualificationTraining>
-                    </Fade>
+                    
                         
-                    <Fade bottom> 
+                    
                         <TransferrableSkills>
                                 <h3>Transferrable Skills</h3>
                                 <h6> Working in hospitality has allowed me to effectively manage my time during short turn arounds, promptly resolving issues and anticipating needs while delivering a fast, friendly service. It’s also taught me to make great tea and coffee! I’ve training in hygiene, health and safety and customer service. I’ve managed opening and closing duties including reconciliation of the cash drawer, so I’ve cash handling skills as well as overseeing and prioritizing daily tasks and handling stock control.</h6>
                         </TransferrableSkills>
-                    </Fade>
                     
-                    <Fade bottom> 
+                    
+                    
                         <ReferencesReq>
                             <h4> References Available on Request</h4>
                         </ReferencesReq>
-                    </Fade>
-                    <Fade bottom> 
+                    
+                    
                         <ClosingFoot>
                             <h5>GDPR STATEMENT: This CV may be kept on file and distributed for employment purposes</h5>
                         </ClosingFoot>
-                    </Fade>
+                    
                 </ResumeWrapper>
                 
-                <Fade bottom> 
-                    <Footer/>
-                </Fade>
+                
+                <Footer/>
+           
 
                 </ResumeContainer>
     )

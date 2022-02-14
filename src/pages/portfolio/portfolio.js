@@ -65,11 +65,11 @@ const Portfolio = () => {
                    
                     imageItems.map((item) => {
                     return (
-                      <Fade bottom>
+                      
                         <a  key={item.id} className="gallery-item" href={item.src} data-lg-size={item.size} data-sub-html={item.subHtml} >
                           <img className="img-responsive" src={item.thumb} alt={""} /> 
                         </a>  
-                      </Fade>         
+                             
                     )})   
                   }    
                 </LightGallery>
@@ -80,39 +80,39 @@ const Portfolio = () => {
           <Fade bottom>
             <AlbumContainer>
               <Fade bottom> <h1> SFX Makeup </h1> </Fade>
-              <Fade bottom> 
+          
                 <LightGalleryContainer> 
                   <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">
                     
                       {imageItems2.map((item) => {
                       return (
-                        <Fade bottom>
+                        
                           <a  key={item.id} className="gallery-item" href={item.src} data-sub-html={item.subHtml} >
                             <img className="img-responsive" src={item.thumb} alt={""} /> 
                           </a>     
-                        </Fade>      
+                           
                       )})
                       }
                     
                   </LightGallery>
                 </LightGalleryContainer>
-              </Fade>
+             
             </AlbumContainer>
           </Fade>
           
           <Fade bottom>
             <AlbumContainer>
-            <Fade bottom>  <h1> Body Paint </h1> </Fade>   
+            <h1> Body Paint </h1>   
               <LightGalleryContainer>
                 
                   <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">
                     {imageItems3.map((item) => {
                       return (
-                        <Fade bottom> 
+                        
                           <a  key={item.id} className="gallery-item" href={item.src} data-sub-html={item.subHtml} >
                             <img className="img-responsive" src={item.thumb} alt={""} /> 
                           </a>  
-                        </Fade>            
+                                  
                       )})
                       }
                   </LightGallery>
@@ -122,17 +122,17 @@ const Portfolio = () => {
           
           <Fade bottom>
           <AlbumContainer>
-                 <Fade bottom>  <h1> Theatrical </h1> </Fade>   
+                 <h1> Theatrical </h1> 
             <LightGalleryContainer>
               
                 <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">
                   {imageItems4.map((item) => {
                     return (
-                      <Fade bottom> 
+                     
                         <a  key={item.id} className="gallery-item" href={item.src} data-sub-html={item.subHtml} >
                           <img className="img-responsive" src={item.thumb} alt={""} /> 
                         </a>    
-                      </Fade>          
+                  
                     )})
                     }
                 </LightGallery>
@@ -142,17 +142,17 @@ const Portfolio = () => {
 
           <Fade bottom>
           <AlbumContainer>
-                  <Fade bottom> <h1> Wedding </h1> </Fade> 
+                 <h1> Wedding </h1> 
             <LightGalleryContainer>
               
                 <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">
                   {imageItems5.map((item) => {
                     return (
-                      <Fade bottom> 
+                    
                         <a  key={item.id} className="gallery-item" href={item.src} data-sub-html={item.subHtml} >
                           <img className="img-responsive" src={item.thumb} alt={""} /> 
                         </a>    
-                      </Fade>        
+                            
                     )})
                     }
                 </LightGallery>
@@ -160,37 +160,39 @@ const Portfolio = () => {
           </AlbumContainer>
           </Fade>
 
-          <AlbumContainer>
-                 <Fade bottom>  <h1> Period </h1> </Fade>   
-            <LightGalleryContainer>
-              
-                <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">
-                  {imageItems6.map((item) => {
-                    return (
-                      <Fade bottom> 
-                        <a  key={item.id} className="gallery-item" href={item.src} data-sub-html={item.subHtml} >
-                          <img className="img-responsive" src={item.thumb} alt={""} /> 
-                        </a> 
-                      </Fade>             
-                    )})
-                    }
-                </LightGallery>
-            </LightGalleryContainer>
-          </AlbumContainer>
+          <Fade bottom>          
+            <AlbumContainer>
+                    <h1> Period </h1> 
+              <LightGalleryContainer>
+                
+                  <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">
+                    {imageItems6.map((item) => {
+                      return (
+                      
+                          <a  key={item.id} className="gallery-item" href={item.src} data-sub-html={item.subHtml} >
+                            <img className="img-responsive" src={item.thumb} alt={""} /> 
+                          </a> 
+                                
+                      )})
+                      }
+                  </LightGallery>
+              </LightGalleryContainer>
+            </AlbumContainer>
+          </Fade>   
 
           <Fade bottom>
           <AlbumContainer>
-                  <Fade bottom> <h1> On Site / Working </h1> </Fade>   
+                 <h1> On Site / Working </h1>  
             <LightGalleryContainer>
               
                 <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">
                   {imageItems7.map((item) => {
                     return (
-                      <Fade bottom> 
+                    
                         <a  key={item.id} className="gallery-item" href={item.src} data-sub-html={item.subHtml} >
                           <img className="img-responsive" src={item.thumb} alt={""} /> 
                         </a> 
-                      </Fade>      
+                  
                     )})
                     }
                 </LightGallery>
@@ -200,17 +202,17 @@ const Portfolio = () => {
 
           <Fade bottom>
             <AlbumContainer>
-            <Fade bottom>   <h1> Nails </h1>  </Fade>
+              <h1> Nails </h1>  
               <LightGalleryContainer>
                 
                   <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">
                   {imageItems8.map((item) => {
                       return (
-                        <Fade bottom> 
+                   
                           <a  key={item.id} className="gallery-item" href={item.src} data-sub-html={item.subHtml} >
                             <img className="img-responsive" src={item.thumb} alt={""} /> 
                           </a> 
-                        </Fade>
+                
                                   
                       )})
                       }
@@ -221,17 +223,17 @@ const Portfolio = () => {
 
           <Fade bottom>
             <AlbumContainer>
-                    <Fade bottom> <h1> Camouflage </h1>  </Fade>
+                    <h1> Camouflage </h1> 
               <LightGalleryContainer>
                 
                   <LightGallery onInit={onInit} plugins={[lgThumbnail, lgZoom, lgRotate ]} mode="lg-slide" elementClassNames="animated-thumbnails-gallery">
                     {imageItems9.map((item) => {
                       return (
-                        <Fade bottom> 
+                       
                           <a  key={item.id} className="gallery-item" href={item.src} data-sub-html={item.subHtml} >
                             <img className="img-responsive" src={item.thumb} alt={""} /> 
                           </a>      
-                        </Fade>     
+               
                       )})
                       }
                   </LightGallery>
