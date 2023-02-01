@@ -5,7 +5,6 @@ import emailjs from "emailjs-com";
 import Lottie from "react-lottie";
 import confettiData from "../../assets/lotties/confetti2.json";
 import Fade from "react-reveal/Fade";
-
 import "./contact.css";
 
 const Confetti = (lottieResult) => {
@@ -86,12 +85,11 @@ const Contact = () => {
 
       <Navbar toggle={toggle} />
 
-      <div className="body">
+      <div className="contactBody">
         <Fade>
           <div className="contactOverlay">
             <div className="titleBox">
               <div className="titleMsgText">
-
                 <h1> Message me! </h1>
               </div>
             </div>

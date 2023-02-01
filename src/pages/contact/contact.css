@@ -1,4 +1,4 @@
-.body {
+.contactBody {
   position: relative;
   overflow: hidden;
   padding-bottom: 40px;
@@ -20,7 +20,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+
 }
 
 .titleMsgText {
@@ -43,6 +43,7 @@
 .container {
   max-width: 800px;
   display: block;
+
 }
 
 .container span {
