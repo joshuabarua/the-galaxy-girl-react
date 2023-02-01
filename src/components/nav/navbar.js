@@ -39,6 +39,7 @@ const Navbar = ( {toggle}) => {
                 <NavBtn>
                 <a href="https://www.facebook.com/thegalaxygirl" target="_blank" rel="noreferrer"> <IconFB/> </a>
                 <a href="https://www.instagram.com/emmathegalaxygirl/" target="_blank" rel="noreferrer">   <IconInsta/> </a>
+
                 </NavBtn>
             </Nav>
         

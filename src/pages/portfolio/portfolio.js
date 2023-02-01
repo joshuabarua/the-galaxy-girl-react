@@ -1,7 +1,6 @@
 import React, {useState, Suspense, lazy}  from 'react';
 import Dropdown from '../../components/dropdown/dropdown';
 import Navbar from '../../components/nav/navbar';
-import Footer from '../../components/footer/index';
 import LightGallery  from 'lightgallery/react';
 import {galleryImgDataGroup1, galleryImgDataGroup2, galleryImgDataGroup3, galleryImgDataGroup4, galleryImgDataGroup5, galleryImgDataGroup6, galleryImgDataGroup7, galleryImgDataGroup8, galleryImgDataGroup9 } from './galleryImgData';
 import {LightGalleryContainer, PortfolioContainer, PortfolioHeader, AlbumContainer} from './portfolioElements';
@@ -18,7 +17,6 @@ import lgRotate  from 'lightgallery/plugins/rotate';
 import Fade from 'react-reveal/Fade';
 
 //const LightGallery = lazy(() => import('lightgallery/react'));
-//const Footer = lazy(() => import('../../components/footer/index'));
 
 const Portfolio = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -244,7 +242,6 @@ const Portfolio = () => {
         </PortfolioContainer>
         
         <Fade >
-          <Footer />
         </Fade>
         
 

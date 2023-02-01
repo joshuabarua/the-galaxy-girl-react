@@ -6,7 +6,6 @@ import InfoSection from '../components/infoSection/index';
 import { aboutObjOne } from '../components/infoSection/data';
 import Slider from '../components/slider/slider';
 import ImageSection from '../components/imageSection/imageSection';
-import Footer from '../components/footer/index';
 import Fade from 'react-reveal/Fade';
   
 const Home = (props) => {
@@ -34,7 +33,6 @@ const Home = (props) => {
           <ImageSection />
         </Fade>
         <Fade>
-          <Footer />
         </Fade>
     </>
   );
