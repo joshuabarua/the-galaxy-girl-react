@@ -160,8 +160,8 @@ export const FormTextAreaInput = styled.div`
   }
 `;
 
-export const FormBtn = styled.div`
-  button {
+export const FormBtn = styled.button`
+
     grid-area: 2 / 1 / 3 / 3;
     width: 200%;
     height: 50px;
@@ -178,9 +178,9 @@ export const FormBtn = styled.div`
     color: black;
     font-weight: bold;
     font-size: 16px;
-  }
+  
 
-  button:hover {
+:hover {
     background-color: snow;
     border: 2px solid #fca17d;
     -webkit-transition: 0.3s linear;
@@ -236,7 +236,7 @@ export const LottieBg = styled.div`
 `;
 
 export const SentMsg = styled.div`
-  display: flex;
+  p {display: flex;
   justify-content: center;
   text-align: center;
   color: #2a292c;
@@ -244,6 +244,7 @@ export const SentMsg = styled.div`
   z-index: 4;
   word-wrap: break-word;
   width: 80%;
+  }
 `;
 
 /* * {

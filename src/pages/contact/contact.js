@@ -6,6 +6,7 @@ import Lottie from "react-lottie";
 import confettiData from "../../assets/lotties/confetti2.json";
 import Fade from "react-reveal/Fade";
 import "./contact.css";
+import { Box, Stack } from "@mui/material";
 
 const Confetti = (lottieResult) => {
   const defaultOptions = {
@@ -14,7 +15,7 @@ const Confetti = (lottieResult) => {
     animationData: confettiData,
   };
   return (
-      <div className={`lottie-bg ${lottieResult ? "active" : ""}`}>
+    <div className={`lottie-bg ${lottieResult ? "active" : ""}`}>
       <Lottie options={defaultOptions} width={"100%"} />
     </div>
   );
@@ -85,73 +86,89 @@ const Contact = () => {
 
       <Navbar toggle={toggle} />
 
-      <div className="contactBody">
+      <Box className="contactBody">
         <Fade>
-          <div className="contactOverlay">
-            <div className="titleBox">
+          <Box className="contactOverlay">
+            <Box className="titleBox" mb={8}>
               <div className="titleMsgText">
                 <h1> Message me! </h1>
               </div>
-            </div>
+            </Box>
 
-            <div className="container">
-              <div className="form">
-                <form action="" onSubmit={customSubmit}>
-                  <div className="formWord">
-                    <span> Name / Company </span>
-                    <input
-                      type="text"
-                      placeholder="Name/Company"
-                      name="name"
-                      value="test"
-                      required
-                    />
-                    <span> Email</span>
-                    <input
-                      type="email"
-                      placeholder="Email Address"
-                      name="email"
-                      value="test@test.com"
-                      required
-                    />
-                    <span> Subject </span>
-                    <input
-                      type="text"
-                      placeholder="Subject"
-                      name="subject"
-                      value="subject"
-                      required
-                    />
-                  </div>
+            <Box className="form-container">
+              <form action="" onSubmit={customSubmit}>
+                <Stack
+                  direction="row"
+                  justifyContent={"space-between"}
+                  spacing={3}
+                  sx={{ width: "100%" }}
+                >
+                  <Stack direction="column" sx={{ width: "50%" }}>
+                    <Stack direction="column">
+                      <label className="form-label"> Name / Company </label>
+                      <input
+                        type="text"
+                        placeholder="Name/Company"
+                        name="name"
+                        value="test"
+                        required
+                        className="form-input"
+                      />
+                    </Stack>
+                    <Stack direction="column">
+                      <label className="form-label"> Email</label>
+                      <input
+                        type="email"
+                        placeholder="Email Address"
+                        name="email"
+                        value="test@test.com"
+                        required
+                        className="form-input"
+                      />
+                    </Stack>
+                    <Stack direction="column">
+                      <label className="form-label"> Subject </label>
+                      <input
+                        type="text"
+                        placeholder="Subject"
+                        name="subject"
+                        value="subject"
+                        required
+                        className="form-input"
+                      />
+                    </Stack>
+                  </Stack>
 
-                  <div className="formWord2">
-                    <span> Message</span>
-                    <textarea
-                      placeholder="Your message"
-                      name="message"
-                      value="msg"
-                      required
-                    ></textarea>
-                  </div>
+                  <Stack direction="column" sx={{ width: "50%" }}>
+                    <Stack direction="column" className="form-input-field">
+                      <label className="form-label"> Message</label>
+                      <textarea
+                        placeholder="Your message"
+                        name="message"
+                        value="msg"
+                        required
+                        className="form-textarea"
+                      ></textarea>
+                    </Stack>
+                  </Stack>
+                </Stack>
 
-                  <div className="form-btn">
-                    <button> Send Message </button>
-                  </div>
-
-                </form>
-                  <div className="submittedForm">
-                    {result && lottieResult ? (
-                      <>
-                        <MsgDetail />
-                        <Confetti lottieResult={lottieResult}/>
-                      </>
-                    ) : null}
-                  </div>
+                <div className="form-row form-btn">
+                  <button> Send Message </button>
+                </div>
+              <div className="submittedForm">
+                {result && lottieResult ? (
+                  <>
+                    <MsgDetail />
+                    <Confetti lottieResult={lottieResult} />
+                  </>
+                ) : null}
               </div>
-            </div>
-          </div>
+              </form>
+            </Box>
+          </Box>
         </Fade>
-      </div>
+      </Box>
     </>
   );
 };
