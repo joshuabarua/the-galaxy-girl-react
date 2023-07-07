@@ -23,8 +23,8 @@ import {
 	VideogamesExpData,
 	TransferrableSkills,
 } from "./resumeElements";
-import Navbar from "../../components/nav/navbar";
-import Dropdown from "../../components/dropdown/dropdown";
+import Navbar from "../../components/nav/Navbar";
+import Dropdown from "../../components/dropdown/Dropdown";
 // import emmaCVpdf from "../../assets/CV/BlankCV.pdf";
 import "./resume.css";
 import Fade from "react-reveal/Fade";
