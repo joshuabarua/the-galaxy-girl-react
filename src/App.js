@@ -12,14 +12,11 @@ function App() {
 		<>
 			<Router basename={process.env.PUBLIC_URL}>
 				<Routes>
-					<Route path="pages/index.js" component={Home} exact />
-					<Route path="pages/resume/index.js" exact component={Resume} />
-					<Route
-						path="pages/portfolio/portfolio.js"
-						exact
-						component={Portfolio}
-					/>
-					<Route path="pages/contact/contact.js" exact component={Contact} />
+					<Route path="/" element={<Home />} exact />
+					{/* Specify the element */}
+					<Route path="/resume" element={<Resume />} exact />
+					<Route path="/portfolio" element={<Portfolio />} exact />
+					<Route path="/contact" element={<Contact />} exact />
 				</Routes>
 				<Footer />
 			</Router>
