@@ -9,27 +9,13 @@ import Fade from "react-reveal/Fade";
 import { gallery } from "./galleryImgData";
 import GalleryGroup from "./GalleryGroup";
 
-const {
-	galleryImgDataGroup1,
-	galleryImgDataGroup2,
-	galleryImgDataGroup3,
-	galleryImgDataGroup4,
-	galleryImgDataGroup5,
-	galleryImgDataGroup6,
-	galleryImgDataGroup7,
-	galleryImgDataGroup8,
-	galleryImgDataGroup9,
-} = gallery;
-
 const WorkPortfolio = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {
 		setIsOpen(!isOpen);
 	};
-	console.log(gallery);
 	const [imageItems, setImageItems] = useState({});
-
 	useEffect(() => {
 		setImageItems(gallery);
 	}, []);
@@ -47,8 +33,10 @@ const WorkPortfolio = () => {
 						<h1>Portfolio</h1>
 					</PortfolioHeader>
 				</Fade>
-				{Object.entries(imageItems).map((imageGroup) => (
-					<GalleryGroup props={{ imageGroup }} key={Math.random()} />
+				{Object.entries(imageItems).map(([key, val]) => (
+					<React.Fragment key={key}>
+						<GalleryGroup imageData={val} />
+					</React.Fragment>
 				))}
 			</PortfolioContainer>
 		</>

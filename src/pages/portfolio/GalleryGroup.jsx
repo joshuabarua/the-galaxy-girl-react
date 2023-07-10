@@ -9,13 +9,13 @@ import lgRotate from "lightgallery/plugins/rotate";
 
 const LazyLightGallery = lazy(() => import("lightgallery/react"));
 export default function GalleryGroup(props) {
-    const {name, images} = props;
-    
-    //TODO: fix display of data
-	console.log(props);
+	const { name, images } = props.imageData;
+
+	//TODO: fix display of data
+	console.log(images);
 	return (
 		<>
-			<AlbumContainer key={name}>
+			<AlbumContainer>
 				<h1>{name}</h1>
 
 				<LightGalleryContainer>
@@ -25,21 +25,22 @@ export default function GalleryGroup(props) {
 							mode="lg-slide"
 							elementClassNames="animated-thumbnails-gallery"
 						>
-							{images.map((image) => (
-								<a
-									key={image.id}
-									className="gallery-item"
-									href={image.src}
-									data-lg-size={image.size}
-									data-sub-html={image.subHtml}
-								>
-									<img
-										className="img-responsive"
-										src={image.thumb}
-										alt={""}
-									/>
-								</a>
-							))}
+							{props.images &&
+								images.map((image) => (
+									<a
+										key={image.id}
+										className="gallery-item"
+										href={image.src}
+										data-lg-size={image.size}
+										data-sub-html={image.subHtml}
+									>
+										<img
+											className="img-responsive"
+											src={image.thumb}
+											alt={""}
+										/>
+									</a>
+								))}
 						</LazyLightGallery>
 					</Suspense>
 				</LightGalleryContainer>

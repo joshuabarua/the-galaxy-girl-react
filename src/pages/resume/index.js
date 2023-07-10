@@ -153,11 +153,9 @@ const Resume = () => {
 			<Navbar toggle={toggle} />
 			<ResumeWrapper>
 				<button className="downloadBtn">
-					{" "}
 					<a href="/" download="MUA_EmmaRoby_CV">
-						{" "}
-						Download CV{" "}
-					</a>{" "}
+						Download CV
+					</a>
 				</button>
 
 				<ResumeContact>
@@ -167,7 +165,6 @@ const Resume = () => {
 						<h6> ScreenSkills Film Trainee 2020-21</h6>
 						<h6> Brighton and London based, willing to travel </h6>
 						<h6>
-							{" "}
 							M: (+44) 1234567890 &nbsp;&nbsp;&nbsp;&nbsp; E: email@email.com{" "}
 						</h6>
 					</text>
@@ -375,62 +372,45 @@ const Resume = () => {
 					<div className="qualificatonList">
 						<ul>
 							<li>
-								{" "}
 								<h5>
-									{" "}
 									Extended Level 3 Diploma in Theatrical hair and Media
 									Makeup – Grade: Distinction
 								</h5>
 							</li>
 							<li>
-								{" "}
 								<h5>
-									{" "}
 									Diploma in Gel Polish, accredited by the Guild of Beauty
-									Therapists{" "}
+									Therapists
 								</h5>
 							</li>
 							<li>
-								{" "}
 								<h5>
-									{" "}
 									Intensive Flat mould & SFX training with Laura Odette
-									Phipps{" "}
+									Phipps
 								</h5>
 							</li>
 							<li>
-								{" "}
 								<h5>
-									{" "}
 									Screenskills training: Production safety Passport (Safe
-									management of productions){" "}
+									management of productions)
 								</h5>
 							</li>
 							<li>
-								{" "}
 								<h5>
-									{" "}
 									Screenskills training: Tackling harassment and bullying at
-									work & Coronavirus basic awareness on production training{" "}
-								</h5>{" "}
+									work & Coronavirus basic awareness on production training
+								</h5>
 							</li>
 							<li>
-								{" "}
-								<h5> Barbicide & Barbicide Covid-19 Certifications </h5>{" "}
+								<h5> Barbicide & Barbicide Covid-19 Certifications </h5>
 							</li>
 							<li>
-								{" "}
-								<h5>
-									{" "}
-									Kryolan Casualty Effects and Camouflage Workshop{" "}
-								</h5>{" "}
+								<h5>Kryolan Casualty Effects and Camouflage Workshop </h5>
 							</li>
 							<li>
-								{" "}
 								<h5> Online Workshop with Naomi Donne </h5>
 							</li>
 							<li>
-								{" "}
 								<h5> Barbering Level 2 – in progress </h5>
 							</li>
 						</ul>
