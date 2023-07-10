@@ -27,7 +27,6 @@ import Navbar from "../../components/nav/Navbar";
 import Dropdown from "../../components/dropdown/Dropdown";
 // import emmaCVpdf from "../../assets/CV/BlankCV.pdf";
 import "./resume.css";
-import Fade from "react-reveal/Fade";
 
 const Resume = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -147,6 +146,24 @@ const Resume = () => {
 		},
 	];
 
+	const renderExperienceData = (start, end) => {
+		return expData.slice(start, end).map((list) => (
+			<React.Fragment key={list.id}>
+				<span>
+					<h5>{list.title}</h5>
+				</span>
+
+				<span>
+					<h5>{list.designer} </h5>
+				</span>
+
+				<span>
+					<h5>{list.role}</h5>
+				</span>
+			</React.Fragment>
+		));
+	};
+
 	return (
 		<ResumeContainer>
 			<Dropdown isOpen={isOpen} toggle={toggle} />
@@ -174,7 +191,7 @@ const Resume = () => {
 					<text>
 						<h4>
 							A creative makeup artist looking to work in the film industry by
-							expanding my expertise, knowledge and repertoire of skills
+							expanding my expertise, knowledge, and repertoire of skills
 							having been accepted as a Screenskills 2020/21 trainee.
 							Currently training 1.5 days a week as a Barber in an effort to
 							expand upon my skills during Covid related downtime, finishing
@@ -193,7 +210,7 @@ const Resume = () => {
 
 				<WorkExperienceData>
 					<span>
-						<h4>Job / Title </h4>
+						<h4>Job / Title</h4>
 					</span>
 
 					<span>
@@ -204,168 +221,44 @@ const Resume = () => {
 						<h4>Role & Job Details</h4>
 					</span>
 
-					{expData.slice(0, 5).map((list) => {
-						return (
-							<>
-								<span key={list.id}>
-									<h5>{list.title}</h5>
-								</span>
-
-								<span key={list.id}>
-									<h5>{list.designer} </h5>
-								</span>
-
-								<span key={list.id}>
-									<h5>{list.role}</h5>
-								</span>
-							</>
-						);
-					})}
+					{renderExperienceData(0, 5)}
 				</WorkExperienceData>
 
 				<TVExpTitle>
 					<h4>TV / Adverts</h4>
 				</TVExpTitle>
 
-				<TvExpData>
-					{expData.slice(5, 8).map((list2) => {
-						return (
-							<>
-								<span key={list2.id}>
-									<h5>{list2.title}</h5>
-								</span>
-
-								<span key={list2.id}>
-									<h5>{list2.designer} </h5>
-								</span>
-
-								<span key={list2.id}>
-									<h5>{list2.role}</h5>
-								</span>
-							</>
-						);
-					})}
-				</TvExpData>
+				<TvExpData>{renderExperienceData(5, 8)}</TvExpData>
 
 				<CommercialExpTitle>
 					<h4>Commercial / Internal Videos</h4>
 				</CommercialExpTitle>
 
-				<CommercialExpData>
-					{expData.slice(8, 10).map((list3) => {
-						return (
-							<>
-								<span key={list3.id}>
-									<h5>{list3.title}</h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.designer} </h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.role}</h5>
-								</span>
-							</>
-						);
-					})}
-				</CommercialExpData>
+				<CommercialExpData>{renderExperienceData(8, 10)}</CommercialExpData>
 
 				<TheatreExpTitle>
 					<h4>Theatre</h4>
 				</TheatreExpTitle>
 
-				<TheatreExpData>
-					{expData.slice(10, 11).map((list3) => {
-						return (
-							<>
-								<span key={list3.id}>
-									<h5>{list3.title}</h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.designer} </h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.role}</h5>
-								</span>
-							</>
-						);
-					})}
-				</TheatreExpData>
+				<TheatreExpData>{renderExperienceData(10, 11)}</TheatreExpData>
 
 				<WorkshopsExpTitle>
 					<h4>Workshops</h4>
 				</WorkshopsExpTitle>
 
-				<WorkshopsExpData>
-					{expData.slice(11, 12).map((list3) => {
-						return (
-							<>
-								<span key={list3.id}>
-									<h5>{list3.title}</h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.designer} </h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.role}</h5>
-								</span>
-							</>
-						);
-					})}
-				</WorkshopsExpData>
+				<WorkshopsExpData>{renderExperienceData(11, 12)}</WorkshopsExpData>
 
 				<FashionExpTitle>
 					<h4>Fashion</h4>
 				</FashionExpTitle>
 
-				<FashionExpData>
-					{expData.slice(12, 14).map((list3) => {
-						return (
-							<>
-								<span key={list3.id}>
-									<h5>{list3.title}</h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.designer} </h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.role}</h5>
-								</span>
-							</>
-						);
-					})}
-				</FashionExpData>
+				<FashionExpData>{renderExperienceData(12, 14)}</FashionExpData>
 
 				<VideogamesExpTitle>
 					<h4>Video Games</h4>
 				</VideogamesExpTitle>
 
-				<VideogamesExpData>
-					{expData.slice(14, 15).map((list3) => {
-						return (
-							<>
-								<span key={list3.id}>
-									<h5>{list3.title}</h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.designer} </h5>
-								</span>
-
-								<span key={list3.id}>
-									<h5>{list3.role}</h5>
-								</span>
-							</>
-						);
-					})}
-				</VideogamesExpData>
+				<VideogamesExpData>{renderExperienceData(14, 15)}</VideogamesExpData>
 
 				<QualificationTraining>
 					<h3>Qualifications & Training </h3>
@@ -420,7 +313,6 @@ const Resume = () => {
 				<TransferrableSkills>
 					<h3>Transferrable Skills</h3>
 					<h6>
-						{" "}
 						Working in hospitality has allowed me to effectively manage my time
 						during short turn arounds, promptly resolving issues and
 						anticipating needs while delivering a fast, friendly service. It’s

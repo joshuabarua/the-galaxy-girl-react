@@ -11,7 +11,6 @@ import {
 	LogoImg,
 } from "./navElements";
 import logoImg from "../../assets/GalaxyGirlLogo.png";
-import Fade from "react-reveal/Fade";
 
 const Navbar = ({ toggle }) => {
 	const [scrollNav, setScrollNav] = useState(false);

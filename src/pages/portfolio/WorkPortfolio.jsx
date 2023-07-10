@@ -1,11 +1,10 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useState, useEffect } from "react";
 import Dropdown from "../../components/dropdown/Dropdown";
 import Navbar from "../../components/nav/Navbar";
 import { PortfolioContainer, PortfolioHeader } from "./portfolioElements";
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
-import Fade from "react-reveal/Fade";
 import { gallery } from "./galleryImgData";
 import GalleryGroup from "./GalleryGroup";
 
@@ -18,21 +17,19 @@ const WorkPortfolio = () => {
 	const [imageItems, setImageItems] = useState({});
 	useEffect(() => {
 		setImageItems(gallery);
-	}, []);
-	//TODO: Fix object.entries function to autogenerate component
+
+		return console.log("cleanup");
+	}, [imageItems]);
+
 	return (
 		<>
 			<Dropdown isOpen={isOpen} toggle={toggle} />
-			<Fade>
-				<Navbar toggle={toggle} />
-			</Fade>
+			<Navbar toggle={toggle} />
 
 			<PortfolioContainer>
-				<Fade>
-					<PortfolioHeader>
-						<h1>Portfolio</h1>
-					</PortfolioHeader>
-				</Fade>
+				<PortfolioHeader>
+					<h1>Portfolio</h1>
+				</PortfolioHeader>
 				{Object.entries(imageItems).map(([key, val]) => (
 					<React.Fragment key={key}>
 						<GalleryGroup imageData={val} />

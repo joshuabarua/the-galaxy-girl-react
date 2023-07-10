@@ -12,7 +12,6 @@ import {
 	ArrowRight,
 } from "./heroElements";
 import { Button } from "../../pages/buttonElement";
-import Contact from "../../pages/contact/Contact";
 
 const HeroSection = () => {
 	const [hover, setHover] = useState(false);

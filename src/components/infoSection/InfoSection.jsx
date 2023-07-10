@@ -20,7 +20,6 @@ const InfoSection = ({
 	lightBg,
 	lightText,
 	imgStart,
-	imgEm,
 	topLine,
 	headline,
 	darkText,
