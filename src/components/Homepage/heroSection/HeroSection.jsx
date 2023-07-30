@@ -29,7 +29,7 @@ const HeroSection = () => {
 				<HeroContent>
 					<HeroH1> Emma Barua ~ Makeup Artist</HeroH1>
 					<HeroP>
-						"Everything has beauty in it, but not everyone sees it" - Confucius{" "}
+						"Everything has beauty in it, but not everyone sees it" - Confucius
 					</HeroP>
 					<HeroBtnWrapper>
 						<Button
