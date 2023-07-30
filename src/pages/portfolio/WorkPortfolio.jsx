@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import Dropdown from "../../components/dropdown/Dropdown";
 import Navbar from "../../components/nav/Navbar";
-import { PortfolioContainer, PortfolioHeader } from "./portfolioElements";
+import {PortfolioContainer, PortfolioHeader} from "./portfolioElements";
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
-import { gallery } from "./galleryImgData";
+import {gallery} from "./galleryImgData";
 import GalleryGroup from "./GalleryGroup";
 
 const WorkPortfolio = () => {
@@ -20,9 +20,9 @@ const WorkPortfolio = () => {
 
 		return console.log("cleanup");
 	}, [imageItems]);
-
+	//TODO: Cleanup Portfolio
 	return (
-		<>
+		<div style={{scrollBehavior: "smooth"}}>
 			<Dropdown isOpen={isOpen} toggle={toggle} />
 			<Navbar toggle={toggle} />
 
@@ -36,7 +36,7 @@ const WorkPortfolio = () => {
 					</React.Fragment>
 				))}
 			</PortfolioContainer>
-		</>
+		</div>
 	);
 };
 

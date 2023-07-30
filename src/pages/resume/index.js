@@ -165,7 +165,7 @@ const Resume = () => {
 	};
 
 	return (
-		<div style={{}}>
+		<div style={{scrollBehavior: "smooth"}}>
 			<ResumeContainer>
 				<Dropdown isOpen={isOpen} toggle={toggle} />
 				<Navbar toggle={toggle} />

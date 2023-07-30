@@ -15,14 +15,14 @@ const Home = () => {
 	};
 
 	return (
-		<>
+		<div style={{scrollBehavior: "smooth"}}>
 			<Dropdown isOpen={isOpen} toggle={toggle} />
 			<Navbar toggle={toggle} />
 			<HeroSection />
 			<InfoSection {...aboutObjOne}> </InfoSection>
 			<Slider />
 			<ImageSection />
-		</>
+		</div>
 	);
 };
 
