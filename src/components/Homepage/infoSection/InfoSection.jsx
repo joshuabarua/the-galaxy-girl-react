@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../../pages/buttonElement";
+import {Button} from "../../../pages/buttonElement";
 import {
 	InfoContainer,
 	InfoWrap,
@@ -14,7 +14,7 @@ import {
 	ImgWrap,
 	Img,
 } from "./infoElements";
-import EmmaPic from "../../assets/images/em2.jpg";
+import EmmaPic from "../../../assets/images/em2.jpg";
 
 const InfoSection = ({
 	lightBg,

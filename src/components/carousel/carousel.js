@@ -23,31 +23,31 @@ const Carousel = () => {
         <img src={two} alt='' className='sliderimg'/> ,
         <img src={three} alt='' className='sliderimg'/> ,
         <img src={four} alt='' className='sliderimg'/> ,
-        <img src={five} alt='' className='sliderimg'/>, 
-        <img src={six} alt='' className='sliderimg'/> 
+        <img src={five} alt='' className='sliderimg'/>,
+        <img src={six} alt='' className='sliderimg'/>
     ];
 
     const renderPrevButton = ({ isDisabled }) => {
         return <span className="imgBtns" style={{ opacity: isDisabled ? '0.5' : 1 }}> <FaArrowLeft /> </span>;
     };
-    
+
     const renderNextButton = ({ isDisabled }) => {
         return <span className="imgBtns" style={{ opacity: isDisabled ? '0.5' : 1 }}> <FaArrowRight /> </span>;
     };
-    
+
     return (
-        <AliceCarousel 
+        <AliceCarousel
         items={items}
-        autoPlay 
-        infinite 
-        responsive={responsive} 
-        autoPlayInterval="3000" 
-        autoPlayStrategy='none' 
+        autoPlay
+        infinite
+        responsive={responsive}
+        autoPlayInterval="3000"
+        autoPlayStrategy='none'
         disableDotsControls
         touchTracking={true}
         renderPrevButton={renderPrevButton}
         renderNextButton={renderNextButton} />
-                     
+
     )
 }
 

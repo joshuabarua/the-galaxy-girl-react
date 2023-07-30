@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import {
 	ResumeContainer,
 	ResumeWrapper,
@@ -165,177 +165,182 @@ const Resume = () => {
 	};
 
 	return (
-		<ResumeContainer>
-			<Dropdown isOpen={isOpen} toggle={toggle} />
-			<Navbar toggle={toggle} />
-			<ResumeWrapper>
-				<button className="downloadBtn">
-					<a href="/" download="MUA_EmmaRoby_CV">
-						Download CV
-					</a>
-				</button>
+		<div style={{}}>
+			<ResumeContainer>
+				<Dropdown isOpen={isOpen} toggle={toggle} />
+				<Navbar toggle={toggle} />
+				<ResumeWrapper>
+					<button className="downloadBtn">
+						<a href="/" download="MUA_EmmaRoby_CV">
+							Download CV
+						</a>
+					</button>
 
-				<ResumeContact>
-					<text>
-						<h2> Emma Robyn </h2>
-						<h6> Makeup Artist Trainee </h6>
-						<h6> ScreenSkills Film Trainee 2020-21</h6>
-						<h6> Brighton and London based, willing to travel </h6>
+					<ResumeContact>
+						<text>
+							<h2> Emma Robyn </h2>
+							<h6> Makeup Artist Trainee </h6>
+							<h6> ScreenSkills Film Trainee 2020-21</h6>
+							<h6> Brighton and London based, willing to travel </h6>
+							<h6>
+								M: (+44) 1234567890 &nbsp;&nbsp;&nbsp;&nbsp; E:
+								email@email.com{" "}
+							</h6>
+						</text>
+					</ResumeContact>
+
+					<ResumeBio>
+						<text>
+							<h4>
+								A creative makeup artist looking to work in the film industry
+								by expanding my expertise, knowledge, and repertoire of
+								skills having been accepted as a Screenskills 2020/21
+								trainee. Currently training 1.5 days a week as a Barber in an
+								effort to expand upon my skills during Covid related
+								downtime, finishing in July 2021. Based in Brighton, London
+								(close to Pinewood or South East) and Norwich with
+								accommodation at each location.
+							</h4>
+						</text>
+					</ResumeBio>
+
+					<WorkExperienceTitle>
+						<text>
+							<h3>Work Experience</h3>
+							<h4>Films / Short Films</h4>
+						</text>
+					</WorkExperienceTitle>
+
+					<WorkExperienceData>
+						<span>
+							<h4>Job / Title</h4>
+						</span>
+
+						<span>
+							<h4>Designer/Production</h4>
+						</span>
+
+						<span>
+							<h4>Role & Job Details</h4>
+						</span>
+
+						{renderExperienceData(0, 5)}
+					</WorkExperienceData>
+
+					<TVExpTitle>
+						<h4>TV / Adverts</h4>
+					</TVExpTitle>
+
+					<TvExpData>{renderExperienceData(5, 8)}</TvExpData>
+
+					<CommercialExpTitle>
+						<h4>Commercial / Internal Videos</h4>
+					</CommercialExpTitle>
+
+					<CommercialExpData>{renderExperienceData(8, 10)}</CommercialExpData>
+
+					<TheatreExpTitle>
+						<h4>Theatre</h4>
+					</TheatreExpTitle>
+
+					<TheatreExpData>{renderExperienceData(10, 11)}</TheatreExpData>
+
+					<WorkshopsExpTitle>
+						<h4>Workshops</h4>
+					</WorkshopsExpTitle>
+
+					<WorkshopsExpData>{renderExperienceData(11, 12)}</WorkshopsExpData>
+
+					<FashionExpTitle>
+						<h4>Fashion</h4>
+					</FashionExpTitle>
+
+					<FashionExpData>{renderExperienceData(12, 14)}</FashionExpData>
+
+					<VideogamesExpTitle>
+						<h4>Video Games</h4>
+					</VideogamesExpTitle>
+
+					<VideogamesExpData>{renderExperienceData(14, 15)}</VideogamesExpData>
+
+					<QualificationTraining>
+						<h3>Qualifications & Training </h3>
+						<div className="qualificatonList">
+							<ul>
+								<li>
+									<h5>
+										Extended Level 3 Diploma in Theatrical hair and Media
+										Makeup – Grade: Distinction
+									</h5>
+								</li>
+								<li>
+									<h5>
+										Diploma in Gel Polish, accredited by the Guild of
+										Beauty Therapists
+									</h5>
+								</li>
+								<li>
+									<h5>
+										Intensive Flat mould & SFX training with Laura Odette
+										Phipps
+									</h5>
+								</li>
+								<li>
+									<h5>
+										Screenskills training: Production safety Passport (Safe
+										management of productions)
+									</h5>
+								</li>
+								<li>
+									<h5>
+										Screenskills training: Tackling harassment and bullying
+										at work & Coronavirus basic awareness on production
+										training
+									</h5>
+								</li>
+								<li>
+									<h5> Barbicide & Barbicide Covid-19 Certifications </h5>
+								</li>
+								<li>
+									<h5>Kryolan Casualty Effects and Camouflage Workshop </h5>
+								</li>
+								<li>
+									<h5> Online Workshop with Naomi Donne </h5>
+								</li>
+								<li>
+									<h5> Barbering Level 2 – in progress </h5>
+								</li>
+							</ul>
+						</div>
+					</QualificationTraining>
+
+					<TransferrableSkills>
+						<h3>Transferrable Skills</h3>
 						<h6>
-							M: (+44) 1234567890 &nbsp;&nbsp;&nbsp;&nbsp; E: email@email.com{" "}
+							Working in hospitality has allowed me to effectively manage my
+							time during short turn arounds, promptly resolving issues and
+							anticipating needs while delivering a fast, friendly service.
+							It’s also taught me to make great tea and coffee! I’ve training
+							in hygiene, health and safety and customer service. I’ve managed
+							opening and closing duties including reconciliation of the cash
+							drawer, so I’ve cash handling skills as well as overseeing and
+							prioritizing daily tasks and handling stock control.
 						</h6>
-					</text>
-				</ResumeContact>
+					</TransferrableSkills>
 
-				<ResumeBio>
-					<text>
-						<h4>
-							A creative makeup artist looking to work in the film industry by
-							expanding my expertise, knowledge, and repertoire of skills
-							having been accepted as a Screenskills 2020/21 trainee.
-							Currently training 1.5 days a week as a Barber in an effort to
-							expand upon my skills during Covid related downtime, finishing
-							in July 2021. Based in Brighton, London (close to Pinewood or
-							South East) and Norwich with accommodation at each location.
-						</h4>
-					</text>
-				</ResumeBio>
+					<ReferencesReq>
+						<h4> References Available on Request</h4>
+					</ReferencesReq>
 
-				<WorkExperienceTitle>
-					<text>
-						<h3>Work Experience</h3>
-						<h4>Films / Short Films</h4>
-					</text>
-				</WorkExperienceTitle>
-
-				<WorkExperienceData>
-					<span>
-						<h4>Job / Title</h4>
-					</span>
-
-					<span>
-						<h4>Designer/Production</h4>
-					</span>
-
-					<span>
-						<h4>Role & Job Details</h4>
-					</span>
-
-					{renderExperienceData(0, 5)}
-				</WorkExperienceData>
-
-				<TVExpTitle>
-					<h4>TV / Adverts</h4>
-				</TVExpTitle>
-
-				<TvExpData>{renderExperienceData(5, 8)}</TvExpData>
-
-				<CommercialExpTitle>
-					<h4>Commercial / Internal Videos</h4>
-				</CommercialExpTitle>
-
-				<CommercialExpData>{renderExperienceData(8, 10)}</CommercialExpData>
-
-				<TheatreExpTitle>
-					<h4>Theatre</h4>
-				</TheatreExpTitle>
-
-				<TheatreExpData>{renderExperienceData(10, 11)}</TheatreExpData>
-
-				<WorkshopsExpTitle>
-					<h4>Workshops</h4>
-				</WorkshopsExpTitle>
-
-				<WorkshopsExpData>{renderExperienceData(11, 12)}</WorkshopsExpData>
-
-				<FashionExpTitle>
-					<h4>Fashion</h4>
-				</FashionExpTitle>
-
-				<FashionExpData>{renderExperienceData(12, 14)}</FashionExpData>
-
-				<VideogamesExpTitle>
-					<h4>Video Games</h4>
-				</VideogamesExpTitle>
-
-				<VideogamesExpData>{renderExperienceData(14, 15)}</VideogamesExpData>
-
-				<QualificationTraining>
-					<h3>Qualifications & Training </h3>
-					<div className="qualificatonList">
-						<ul>
-							<li>
-								<h5>
-									Extended Level 3 Diploma in Theatrical hair and Media
-									Makeup – Grade: Distinction
-								</h5>
-							</li>
-							<li>
-								<h5>
-									Diploma in Gel Polish, accredited by the Guild of Beauty
-									Therapists
-								</h5>
-							</li>
-							<li>
-								<h5>
-									Intensive Flat mould & SFX training with Laura Odette
-									Phipps
-								</h5>
-							</li>
-							<li>
-								<h5>
-									Screenskills training: Production safety Passport (Safe
-									management of productions)
-								</h5>
-							</li>
-							<li>
-								<h5>
-									Screenskills training: Tackling harassment and bullying at
-									work & Coronavirus basic awareness on production training
-								</h5>
-							</li>
-							<li>
-								<h5> Barbicide & Barbicide Covid-19 Certifications </h5>
-							</li>
-							<li>
-								<h5>Kryolan Casualty Effects and Camouflage Workshop </h5>
-							</li>
-							<li>
-								<h5> Online Workshop with Naomi Donne </h5>
-							</li>
-							<li>
-								<h5> Barbering Level 2 – in progress </h5>
-							</li>
-						</ul>
-					</div>
-				</QualificationTraining>
-
-				<TransferrableSkills>
-					<h3>Transferrable Skills</h3>
-					<h6>
-						Working in hospitality has allowed me to effectively manage my time
-						during short turn arounds, promptly resolving issues and
-						anticipating needs while delivering a fast, friendly service. It’s
-						also taught me to make great tea and coffee! I’ve training in
-						hygiene, health and safety and customer service. I’ve managed
-						opening and closing duties including reconciliation of the cash
-						drawer, so I’ve cash handling skills as well as overseeing and
-						prioritizing daily tasks and handling stock control.
-					</h6>
-				</TransferrableSkills>
-
-				<ReferencesReq>
-					<h4> References Available on Request</h4>
-				</ReferencesReq>
-
-				<ClosingFoot>
-					<h5>
-						GDPR STATEMENT: This CV may be kept on file and distributed for
-						employment purposes
-					</h5>
-				</ClosingFoot>
-			</ResumeWrapper>
-		</ResumeContainer>
+					<ClosingFoot>
+						<h5>
+							GDPR STATEMENT: This CV may be kept on file and distributed for
+							employment purposes
+						</h5>
+					</ClosingFoot>
+				</ResumeWrapper>
+			</ResumeContainer>
+		</div>
 	);
 };
 

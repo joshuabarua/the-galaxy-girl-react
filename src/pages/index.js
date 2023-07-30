@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import Dropdown from "../components/dropdown/Dropdown";
-import Navbar from "../components/navHomepage/Navbar";
-import HeroSection from "../components/heroSection/HeroSection";
-import InfoSection from "../components/infoSection/InfoSection";
-import { aboutObjOne } from "../components/infoSection/data";
+import Navbar from "../components/Homepage/navHomepage/Navbar";
+import HeroSection from "../components/Homepage/heroSection/HeroSection";
+import InfoSection from "../components/Homepage/infoSection/InfoSection";
 import Slider from "../components/slider/Slider";
-import ImageSection from "../components/imageSection/ImageSection";
+import ImageSection from "../components/Homepage/imageSection/ImageSection";
+import {aboutObjOne} from "../components/Homepage/infoSection/data";
 
-const Home = (props) => {
+const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {

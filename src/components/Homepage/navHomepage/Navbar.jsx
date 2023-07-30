@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 
 import {
 	Nav,
@@ -10,9 +10,9 @@ import {
 	IconFB,
 	LogoImg,
 } from "./navElements";
-import logoImg from "../../assets/GalaxyGirlLogo.png";
+import logoImg from "../../../assets/GalaxyGirlLogo.png";
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({toggle}) => {
 	const [scrollNav, setScrollNav] = useState(false);
 
 	const changeNav = () => {
